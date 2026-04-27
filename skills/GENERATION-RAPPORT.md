@@ -1,0 +1,675 @@
+# Rapport de génération des skills Macroscope
+
+- Nombre de fichiers analysés : 595
+- Nombre de skills créées : 595
+- Fichiers ignorés : 0
+- Problèmes de nommage corrigés : 156
+- Skills dont le nom a été raccourci : 90
+
+## Répartition par domaine TOGAF principal
+
+- architecture applicative : 24
+- architecture des données : 62
+- architecture métier : 87
+- architecture technologique : 16
+- cadrage : 93
+- conception détaillée : 50
+- essais : 56
+- exploitation : 37
+- formation : 39
+- implantation : 28
+- sécurité : 10
+- utilisation : 93
+
+## Fichiers ignorés
+
+Aucun fichier Markdown du corpus n’a été ignoré.
+
+## Problèmes de nommage corrigés
+
+- `07870258508b.md` : `macroscope-m009a-plan-de-la-livraison` -> `macroscope-m009a-plan-de-la-livraison-07870258` (collision de nom)
+- `12bbb74f5c95.md` : `macroscope-p555s-specifications-de-composant-logiciel` -> `macroscope-p555s-specifications-de-composant-logiciel-12bbb74f` (collision de nom)
+- `178097f7be62.md` : `macroscope-m009a-plan-de-la-livraison` -> `macroscope-m009a-plan-de-la-livraison-178097f7` (collision de nom)
+- `17f3fcc8af31.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-17f3fcc8` (collision de nom)
+- `1a1d47559826.md` : `macroscope-p-aps-1-definir-les-criteres-devaluation-des-produits` -> `macroscope-p-aps-1-definir-les-criteres-devaluation-des-1a1d4755` (collision de nom)
+- `2017ffcb3a86.md` : `macroscope-m009a-plan-de-la-livraison` -> `macroscope-m009a-plan-de-la-livraison-2017ffcb` (collision de nom)
+- `2242992da4bb.md` : `macroscope-p200a-cadre-darchitecture` -> `macroscope-p200a-cadre-darchitecture-2242992d` (collision de nom)
+- `25f1957a85b8.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-25f1957a` (collision de nom)
+- `2cd192b25b65.md` : `macroscope-p219s-architecture-logicielle` -> `macroscope-p219s-architecture-logicielle-2cd192b2` (collision de nom)
+- `320df355b89b.md` : `macroscope-p27-pilote` -> `macroscope-p27-pilote-320df355` (collision de nom)
+- `36db1eaf461d.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-36db1eaf` (collision de nom)
+- `39eb4cc663de.md` : `macroscope-p251s-processus-de-travail` -> `macroscope-p251s-processus-de-travail-39eb4cc6` (collision de nom)
+- `44ef5e668fa0.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-44ef5e66` (collision de nom)
+- `4543e75d0575.md` : `macroscope-m049s-notes-de-reunion` -> `macroscope-m049s-notes-de-reunion-4543e75d` (collision de nom)
+- `4a253b57dfab.md` : `macroscope-p140s-exigences-proprietaire` -> `macroscope-p140s-exigences-proprietaire-4a253b57` (collision de nom)
+- `4b14c78c5675.md` : `macroscope-p370s-infrastructure-technologique` -> `macroscope-p370s-infrastructure-technologique-4b14c78c` (collision de nom)
+- `4b462d89896a.md` : `macroscope-p269s-technologie-et-repartition-utilisateur` -> `macroscope-p269s-technologie-et-repartition-utilisateur-4b462d89` (collision de nom)
+- `4be8a71380bb.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-4be8a713` (collision de nom)
+- `4d1bc7f6682e.md` : `macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio` -> `macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio-4d1bc7f6` (collision de nom)
+- `4d9a91d877f2.md` : `macroscope-p410s-groupes-dessai` -> `macroscope-p410s-groupes-dessai-4d9a91d8` (collision de nom)
+- `4e7ad224f3b1.md` : `macroscope-m009a-plan-de-la-livraison` -> `macroscope-m009a-plan-de-la-livraison-4e7ad224` (collision de nom)
+- `4f4eaab0249c.md` : `macroscope-m009a-plan-de-la-livraison` -> `macroscope-m009a-plan-de-la-livraison-4f4eaab0` (collision de nom)
+- `50bdcc1ec194.md` : `macroscope-p140s-livrable-p140s` -> `macroscope-p140s-livrable-p140s-50bdcc1e` (collision de nom)
+- `510e656632db.md` : `macroscope-p410s-groupes-dessai` -> `macroscope-p410s-groupes-dessai-510e6566` (collision de nom)
+- `51c25cda83a3.md` : `macroscope-m009a-plan-de-la-livraison` -> `macroscope-m009a-plan-de-la-livraison-51c25cda` (collision de nom)
+- `52ab18694434.md` : `macroscope-p951s-plan-de-gestion-de-configuration` -> `macroscope-p951s-plan-de-gestion-de-configuration-52ab1869` (collision de nom)
+- `53f27f7cc26f.md` : `macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio` -> `macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio-53f27f7c` (collision de nom)
+- `5618aa58b0a9.md` : `macroscope-p354-analyste-programmeur` -> `macroscope-p354-analyste-programmeur-5618aa58` (collision de nom)
+- `5775e8a59fbc.md` : `macroscope-p57-expert-du-domaine` -> `macroscope-p57-expert-du-domaine-5775e8a5` (collision de nom)
+- `57dcb9f84aa4.md` : `macroscope-p355-conseiller-en-architecture-technique` -> `macroscope-p355-conseiller-en-architecture-technique-57dcb9f8` (collision de nom)
+- `57ed125aa6e8.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-57ed125a` (collision de nom)
+- `58e304b9f070.md` : `macroscope-p580s-specifications-de-processus-automatise` -> `macroscope-p580s-specifications-de-processus-automatise-58e304b9` (collision de nom)
+- `58f23081e5dd.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-58f23081` (collision de nom)
+- `5bcb9c117004.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-5bcb9c11` (collision de nom)
+- `5eaaca0c0199.md` : `macroscope-p951s-plan-de-gestion-de-configuration` -> `macroscope-p951s-plan-de-gestion-de-configuration-5eaaca0c` (collision de nom)
+- `60b482854c37.md` : `macroscope-p60-redacteur` -> `macroscope-p60-redacteur-60b48285` (collision de nom)
+- `60f342b6d0b8.md` : `macroscope-p715s-materiel-de-communication` -> `macroscope-p715s-materiel-de-communication-60f342b6` (collision de nom)
+- `6172fc375ece.md` : `macroscope-p-rec-recouvrement-de-la-documentation-cle-de-systeme` -> `macroscope-p-rec-recouvrement-de-la-documentation-cle-d-6172fc37` (collision de nom)
+- `6633870fb298.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-6633870f` (collision de nom)
+- `6a4836603e2c.md` : `macroscope-p267s-choix-de-composantes-realisateur` -> `macroscope-p267s-choix-de-composantes-realisateur-6a483660` (collision de nom)
+- `6ad4f2fa5e65.md` : `macroscope-p28-utilisateur` -> `macroscope-p28-utilisateur-6ad4f2fa` (collision de nom)
+- `712f1da3bb5c.md` : `macroscope-m009a-plan-de-la-livraison` -> `macroscope-m009a-plan-de-la-livraison-712f1da3` (collision de nom)
+- `7375d1b207f3.md` : `macroscope-p302-comite-de-coordination-du-projet` -> `macroscope-p302-comite-de-coordination-du-projet-7375d1b2` (collision de nom)
+- `74fcefb4c9d3.md` : `macroscope-p240s-principes-utilisateur` -> `macroscope-p240s-principes-utilisateur-74fcefb4` (collision de nom)
+- `753f181fd9ad.md` : `macroscope-p487s-specifications-de-letape-de-tache-reutilisable` -> `macroscope-p487s-specifications-de-letape-de-tache-reut-753f181f` (collision de nom)
+- `76cbc2af1e20.md` : `macroscope-p951s-plan-de-gestion-de-configuration` -> `macroscope-p951s-plan-de-gestion-de-configuration-76cbc2af` (collision de nom)
+- `7a3a93c988e6.md` : `macroscope-p329-interface-separee` -> `macroscope-p329-interface-separee-7a3a93c9` (collision de nom)
+- `7cb03bad5ba3.md` : `macroscope-p705s-guide-doperation` -> `macroscope-p705s-guide-doperation-7cb03bad` (collision de nom)
+- `7eaa8426a2f3.md` : `macroscope-p-oo-am-modelisation-de-larchitecture-proprietaire-et` -> `macroscope-p-oo-am-modelisation-de-larchitecture-propri-7eaa8426` (collision de nom)
+- `7efd56dd3fb3.md` : `macroscope-p750a-cas-dessai-et-resultats` -> `macroscope-p750a-cas-dessai-et-resultats-7efd56dd` (collision de nom)
+- `7f998ffd05c5.md` : `macroscope-p100s-opportunite` -> `macroscope-p100s-opportunite-7f998ffd` (collision de nom)
+- `8139825c032e.md` : `macroscope-p405s-strategie-de-realisation-et-dessai` -> `macroscope-p405s-strategie-de-realisation-et-dessai-8139825c` (collision de nom)
+- `840e1d367ab9.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-840e1d36` (collision de nom)
+- `8544d4e71e2b.md` : `macroscope-p261s-principes-realisateur` -> `macroscope-p261s-principes-realisateur-8544d4e7` (collision de nom)
+- `857db91ddded.md` : `macroscope-p450s-plan-dimplantation` -> `macroscope-p450s-plan-dimplantation-857db91d` (collision de nom)
+- `8a987c1faa81.md` : `macroscope-p540s-specifications-de-la-sequence-realisateur` -> `macroscope-p540s-specifications-de-la-sequence-realisat-8a987c1f` (collision de nom)
+- `8b87ced6bbe9.md` : `macroscope-p315-polymorphisme` -> `macroscope-p315-polymorphisme-8b87ced6` (collision de nom)
+- `8c2facbc9c17.md` : `macroscope-p360s-regles-utilisateur` -> `macroscope-p360s-regles-utilisateur-8c2facbc` (collision de nom)
+- `8efa018969e6.md` : `macroscope-p338-strategie` -> `macroscope-p338-strategie-8efa0189` (collision de nom)
+- `91894be41876.md` : `macroscope-p270s-strategie-dimplantation` -> `macroscope-p270s-strategie-dimplantation-91894be4` (collision de nom)
+- `9203d3785c22.md` : `macroscope-p230s-orientations-utilisateur` -> `macroscope-p230s-orientations-utilisateur-9203d378` (collision de nom)
+- `9253e2e0fedb.md` : `macroscope-p201s-processus-du-systeme` -> `macroscope-p201s-processus-du-systeme-9253e2e0` (collision de nom)
+- `92bfc4c7dfc9.md` : `macroscope-p902s-compte-rendu-de-linformation` -> `macroscope-p902s-compte-rendu-de-linformation-92bfc4c7` (collision de nom)
+- `92fa1ac949a7.md` : `macroscope-p328-comite-de-direction-du-projet` -> `macroscope-p328-comite-de-direction-du-projet-92fa1ac9` (collision de nom)
+- `93e759940689.md` : `macroscope-p331-equipe-de-definition-et-de-validation` -> `macroscope-p331-equipe-de-definition-et-de-validation-93e75994` (collision de nom)
+- `94137ab5e724.md` : `macroscope-p-rec-1-decrire-le-cadre-darchitecture-du-systeme` -> `macroscope-p-rec-1-decrire-le-cadre-darchitecture-du-sy-94137ab5` (collision de nom)
+- `950c8876e93f.md` : `macroscope-p600s-livrable-macroscope` -> `macroscope-p600s-livrable-macroscope-950c8876` (collision de nom)
+- `971395e49bc3.md` : `macroscope-p318-equipe-de-maintenance` -> `macroscope-p318-equipe-de-maintenance-971395e4` (collision de nom)
+- `9742b80d9697.md` : `macroscope-p275s-strategie-de-changement-organisationnel` -> `macroscope-p275s-strategie-de-changement-organisationne-9742b80d` (collision de nom)
+- `9b421a4d27f2.md` : `macroscope-p317-protection` -> `macroscope-p317-protection-9b421a4d` (collision de nom)
+- `9cce5ee192ae.md` : `macroscope-p405s-strategie-de-realisation-et-dessai` -> `macroscope-p405s-strategie-de-realisation-et-dessai-9cce5ee1` (collision de nom)
+- `9db9981cac00.md` : `macroscope-p951s-plan-de-gestion-de-configuration` -> `macroscope-p951s-plan-de-gestion-de-configuration-9db9981c` (collision de nom)
+- `9e8d2257e57e.md` : `macroscope-p250s-structure-utilisateur-du-systeme` -> `macroscope-p250s-structure-utilisateur-du-systeme-9e8d2257` (collision de nom)
+- `a3f56a2118f6.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-a3f56a21` (collision de nom)
+- `a72e614c600c.md` : `macroscope-m009s-plan-detaille` -> `macroscope-m009s-plan-detaille-a72e614c` (collision de nom)
+- `a884d58c6f2f.md` : `macroscope-p30-chef-de-projet` -> `macroscope-p30-chef-de-projet-a884d58c` (collision de nom)
+- `a9b3c403fa2d.md` : `macroscope-p901s-registre-des-demandes-de-changement` -> `macroscope-p901s-registre-des-demandes-de-changement-a9b3c403` (collision de nom)
+- `aac383ee4e43.md` : `macroscope-p319-chef-de-lequipe-de-maintenance` -> `macroscope-p319-chef-de-lequipe-de-maintenance-aac383ee` (collision de nom)
+- `aac56276e73c.md` : `macroscope-p805s-compte-rendu-dimplantation` -> `macroscope-p805s-compte-rendu-dimplantation-aac56276` (collision de nom)
+- `ab4271f43bd8.md` : `macroscope-p700s-guide-dutilisation` -> `macroscope-p700s-guide-dutilisation-ab4271f4` (collision de nom)
+- `ab7783f544f5.md` : `macroscope-p-oo-am-modelisation-de-larchitecture-proprietaire-et` -> `macroscope-p-oo-am-modelisation-de-larchitecture-propri-ab7783f5` (collision de nom)
+- `ac91b2c5937c.md` : `macroscope-p359-formateur` -> `macroscope-p359-formateur-ac91b2c5` (collision de nom)
+- `ae157dd3af27.md` : `macroscope-p186s-specifications-de-composante-reutilisable-dinte` -> `macroscope-p186s-specifications-de-composante-reutilisa-ae157dd3` (collision de nom)
+- `aefb55c18e10.md` : `macroscope-p951s-plan-de-gestion-de-configuration` -> `macroscope-p951s-plan-de-gestion-de-configuration-aefb55c1` (collision de nom)
+- `af326a90d0b2.md` : `macroscope-p951s-plan-de-gestion-de-configuration` -> `macroscope-p951s-plan-de-gestion-de-configuration-af326a90` (collision de nom)
+- `b0dd9cce6685.md` : `macroscope-p290s-couts-et-benefices` -> `macroscope-p290s-couts-et-benefices-b0dd9cce` (collision de nom)
+- `b2a466c76617.md` : `macroscope-p950s-base-de-donnees-de-la-gestion-de-configuration` -> `macroscope-p950s-base-de-donnees-de-la-gestion-de-confi-b2a466c7` (collision de nom)
+- `b39e19301d61.md` : `macroscope-p-uid-conception-de-linterface-utilisateur` -> `macroscope-p-uid-conception-de-linterface-utilisateur-b39e1930` (collision de nom)
+- `b462924a2bec.md` : `macroscope-p600a-composants-logiciels` -> `macroscope-p600a-composants-logiciels-b462924a` (collision de nom)
+- `b4a3a73eeb53.md` : `macroscope-p33-conseiller-en-architecture-de-systeme` -> `macroscope-p33-conseiller-en-architecture-de-systeme-b4a3a73e` (collision de nom)
+- `b69c537510bc.md` : `macroscope-p328-comite-de-direction-du-projet` -> `macroscope-p328-comite-de-direction-du-projet-b69c5375` (collision de nom)
+- `b7184f1f11fa.md` : `macroscope-p200a-cadre-darchitecture` -> `macroscope-p200a-cadre-darchitecture-b7184f1f` (collision de nom)
+- `b8018eeade12.md` : `macroscope-p750s-cas-dessai` -> `macroscope-p750s-cas-dessai-b8018eea` (collision de nom)
+- `b989d782709d.md` : `macroscope-p380s-regles-realisateur` -> `macroscope-p380s-regles-realisateur-b989d782` (collision de nom)
+- `bc194ebbe5cd.md` : `macroscope-p-rec-recouvrement-de-la-documentation-cle-de-systeme` -> `macroscope-p-rec-recouvrement-de-la-documentation-cle-d-bc194ebb` (collision de nom)
+- `beaf71de9751.md` : `macroscope-p3320-analyse-preliminaire` -> `macroscope-p3320-analyse-preliminaire-beaf71de` (collision de nom)
+- `bff75e8e45bf.md` : `macroscope-p740s-environnement-dessai` -> `macroscope-p740s-environnement-dessai-bff75e8e` (collision de nom)
+- `c39b9d9a8946.md` : `macroscope-p28-utilisateur` -> `macroscope-p28-utilisateur-c39b9d9a` (collision de nom)
+- `c4866acb371f.md` : `macroscope-p490s-specifications-de-lunite-de-tache` -> `macroscope-p490s-specifications-de-lunite-de-tache-c4866acb` (collision de nom)
+- `c4c3d231f637.md` : `macroscope-p270s-strategie-dimplantation` -> `macroscope-p270s-strategie-dimplantation-c4c3d231` (collision de nom)
+- `c50475e9763b.md` : `macroscope-p555s-specifications-de-composant-logiciel` -> `macroscope-p555s-specifications-de-composant-logiciel-c50475e9` (collision de nom)
+- `c5a1ce346a26.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-c5a1ce34` (collision de nom)
+- `c63d52ffe328.md` : `macroscope-p335-equipe-de-transition-et-dimplantation` -> `macroscope-p335-equipe-de-transition-et-dimplantation-c63d52ff` (collision de nom)
+- `c6cdfa87648b.md` : `macroscope-p304-mediateur` -> `macroscope-p304-mediateur-c6cdfa87` (collision de nom)
+- `c847d395f05c.md` : `macroscope-p510s-structure-de-linformation-persistante` -> `macroscope-p510s-structure-de-linformation-persistante-c847d395` (collision de nom)
+- `c8aa5092b388.md` : `macroscope-p320-fabrication-pure` -> `macroscope-p320-fabrication-pure-c8aa5092` (collision de nom)
+- `c8d4ee9c76c6.md` : `macroscope-p140s-exigences-proprietaire` -> `macroscope-p140s-exigences-proprietaire-c8d4ee9c` (collision de nom)
+- `c97ce67ba0c0.md` : `macroscope-p44-administrateur-de-base-de-donnees` -> `macroscope-p44-administrateur-de-base-de-donnees-c97ce67b` (collision de nom)
+- `ca2c4f1a94b1.md` : `macroscope-p323-registre` -> `macroscope-p323-registre-ca2c4f1a` (collision de nom)
+- `cc70e728b3da.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-cc70e728` (collision de nom)
+- `cd608298e5d7.md` : `macroscope-p200a-cadre-darchitecture` -> `macroscope-p200a-cadre-darchitecture-cd608298` (collision de nom)
+- `d116650dcce8.md` : `macroscope-m002a-enonce-du-projet` -> `macroscope-m002a-enonce-du-projet-d116650d` (collision de nom)
+- `d1bf494f0d7d.md` : `macroscope-p316-mise-en-commun` -> `macroscope-p316-mise-en-commun-d1bf494f` (collision de nom)
+- `d436e0bdea9e.md` : `macroscope-p356-responsable-des-essais` -> `macroscope-p356-responsable-des-essais-d436e0bd` (collision de nom)
+- `d48ef2bfa7d8.md` : `macroscope-p305-memento` -> `macroscope-p305-memento-d48ef2bf` (collision de nom)
+- `d7ac331ba5e1.md` : `macroscope-p951s-plan-de-gestion-de-configuration` -> `macroscope-p951s-plan-de-gestion-de-configuration-d7ac331b` (collision de nom)
+- `d7f29519ce70.md` : `macroscope-p-uid-conception-de-linterface-utilisateur` -> `macroscope-p-uid-conception-de-linterface-utilisateur-d7f29519` (collision de nom)
+- `d85312aad25d.md` : `macroscope-p318-equipe-de-maintenance` -> `macroscope-p318-equipe-de-maintenance-d85312aa` (collision de nom)
+- `d86f8e31e891.md` : `macroscope-p700s-guide-dutilisation` -> `macroscope-p700s-guide-dutilisation-d86f8e31` (collision de nom)
+- `d9ed3c629db3.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-d9ed3c62` (collision de nom)
+- `db067659f6ff.md` : `macroscope-p333-conseiller-en-architecture-de-transition-et-dimp` -> `macroscope-p333-conseiller-en-architecture-de-transition-et-dimp-db067659` (collision de nom)
+- `db7ba76a677d.md` : `macroscope-p340-module-de-table` -> `macroscope-p340-module-de-table-db7ba76a` (collision de nom)
+- `dd8ab3378d99.md` : `macroscope-p200s-structure-proprietaire-du-systeme` -> `macroscope-p200s-structure-proprietaire-du-systeme-dd8ab337` (collision de nom)
+- `de006989327f.md` : `macroscope-p415s-livrable-macroscope` -> `macroscope-p415s-livrable-macroscope-de006989` (collision de nom)
+- `df965681bf36.md` : `macroscope-p319-chef-de-lequipe-de-maintenance` -> `macroscope-p319-chef-de-lequipe-de-maintenance-df965681` (collision de nom)
+- `dfe34f0150b6.md` : `macroscope-p3434-implantation-dune-livraison` -> `macroscope-p3434-implantation-dune-livraison-dfe34f01` (collision de nom)
+- `e029a2e358e8.md` : `macroscope-p490s-specifications-de-lunite-de-tache` -> `macroscope-p490s-specifications-de-lunite-de-tache-e029a2e3` (collision de nom)
+- `e150cc735a46.md` : `macroscope-p353-analyste-fonctionnel` -> `macroscope-p353-analyste-fonctionnel-e150cc73` (collision de nom)
+- `e4876a6e3851.md` : `macroscope-p770s-resultats-dessai` -> `macroscope-p770s-resultats-dessai-e4876a6e` (collision de nom)
+- `e8d54e2184a4.md` : `macroscope-p710s-materiel-de-formation` -> `macroscope-p710s-materiel-de-formation-e8d54e21` (collision de nom)
+- `e9b09cce8e95.md` : `macroscope-p900s-suivi-des-exigences` -> `macroscope-p900s-suivi-des-exigences-e9b09cce` (collision de nom)
+- `ea707c49099d.md` : `macroscope-p891s-demande-de-changement` -> `macroscope-p891s-demande-de-changement-ea707c49` (collision de nom)
+- `eb5e3b8d263e.md` : `macroscope-p450s-plan-dimplantation` -> `macroscope-p450s-plan-dimplantation-eb5e3b8d` (collision de nom)
+- `ebc50aa442a7.md` : `macroscope-p357-testeur` -> `macroscope-p357-testeur-ebc50aa4` (collision de nom)
+- `ee0b804829c6.md` : `macroscope-m009a-plan-de-la-livraison` -> `macroscope-m009a-plan-de-la-livraison-ee0b8048` (collision de nom)
+- `ef65719da505.md` : `macroscope-p219s-architecture-logicielle` -> `macroscope-p219s-architecture-logicielle-ef65719d` (collision de nom)
+- `ef77dd7da0a2.md` : `macroscope-p410s-groupes-dessai` -> `macroscope-p410s-groupes-dessai-ef77dd7d` (collision de nom)
+- `efb8abbbb86c.md` : `macroscope-p340s-strategie-de-conversion` -> `macroscope-p340s-strategie-de-conversion-efb8abbb` (collision de nom)
+- `efeb801f4c50.md` : `macroscope-p805s-compte-rendu-dimplantation` -> `macroscope-p805s-compte-rendu-dimplantation-efeb801f` (collision de nom)
+- `f211161f8d3f.md` : `macroscope-p4-survol` -> `macroscope-p4-survol-f211161f` (collision de nom)
+- `f29f43146232.md` : `macroscope-p231s-orientations-realisateur` -> `macroscope-p231s-orientations-realisateur-f29f4314` (collision de nom)
+- `f2d5febb3609.md` : `macroscope-p-oo-am-modelisation-de-larchitecture-proprietaire-et` -> `macroscope-p-oo-am-modelisation-de-larchitecture-propri-f2d5febb` (collision de nom)
+- `f2e619de574b.md` : `macroscope-p200a-cadre-darchitecture` -> `macroscope-p200a-cadre-darchitecture-f2e619de` (collision de nom)
+- `f308c8c9b0f9.md` : `macroscope-p490s-specifications-de-lunite-de-tache` -> `macroscope-p490s-specifications-de-lunite-de-tache-f308c8c9` (collision de nom)
+- `f3522b50d17a.md` : `macroscope-p4-survol` -> `macroscope-p4-survol-f3522b50` (collision de nom)
+- `f45be8a941f3.md` : `macroscope-p340s-strategie-de-conversion` -> `macroscope-p340s-strategie-de-conversion-f45be8a9` (collision de nom)
+- `f4b312f01041.md` : `macroscope-p280s-impacts` -> `macroscope-p280s-impacts-f4b312f0` (collision de nom)
+- `f4d75c77d91b.md` : `macroscope-p180s-specifications-de-composante-du-noyau` -> `macroscope-p180s-specifications-de-composante-du-noyau-f4d75c77` (collision de nom)
+- `f557ceece113.md` : `macroscope-p170s-structure-de-linformation` -> `macroscope-p170s-structure-de-linformation-f557ceec` (collision de nom)
+- `f5b0af08fb7a.md` : `macroscope-p3357-architecture` -> `macroscope-p3357-architecture-f5b0af08` (collision de nom)
+- `f61769e9d611.md` : `macroscope-m009a-plan-de-la-livraison` -> `macroscope-m009a-plan-de-la-livraison-f61769e9` (collision de nom)
+- `f73285005e80.md` : `macroscope-p3358-conception-et-realisation-dune-livraison` -> `macroscope-p3358-conception-et-realisation-dune-livraison-f7328500` (collision de nom)
+- `f85375bbae08.md` : `macroscope-p320-fabrication-pure` -> `macroscope-p320-fabrication-pure-f85375bb` (collision de nom)
+- `f8c58cde8dbd.md` : `macroscope-p314-plugin` -> `macroscope-p314-plugin-f8c58cde` (collision de nom)
+- `fe58821299d1.md` : `macroscope-p410s-groupes-dessai` -> `macroscope-p410s-groupes-dessai-fe588212` (collision de nom)
+- `fe664c4edc8f.md` : `macroscope-p353-analyste-fonctionnel` -> `macroscope-p353-analyste-fonctionnel-fe664c4e` (collision de nom)
+
+## Skills dont le nom a été raccourci
+
+- `0170f3907c32.md` : P-APS.1.4 Établir la métrique et l'échelle de classement d'un critère d'évaluation -> `macroscope-p-aps-1-4-etablir-la-metrique-et-lechelle-de-classeme`
+- `0617f5c40a4e.md` : P-APS.5.1 Évaluer les configurations selon chaque critère à la présélection -> `macroscope-p-aps-5-1-evaluer-les-configurations-selon-chaque-cri`
+- `06e3a16aac21.md` : P-APS.6 Évaluer et recommander les produits et services à la sélection détaillée -> `macroscope-p-aps-6-evaluer-et-recommander-les-produits-et-servic`
+- `075f728b870b.md` : P-UIS.2 Révision des circonstances d'utilisation, basée sur les modèles complétés -> `macroscope-p-uis-2-revision-des-circonstances-dutilisation-basee`
+- `079ff83ccc03.md` : P-OO DO.2 Déterminer les références d'objet et la navigation -> `macroscope-p-oo-do-2-determiner-les-references-dobjet-et-la-navi`
+- `0a72d6d05183.md` : P-APS.1 Définir les critères d'évaluation des produits et services -> `macroscope-p-aps-1-definir-les-criteres-devaluation-des-produits`
+- `1188cee0135c.md` : P-OO DA.3 Définir une interface d'un sous-système réalisateur -> `macroscope-p-oo-da-3-definir-une-interface-dun-sous-systeme-real`
+- `1a1d47559826.md` : P-APS.1 Définir les critères d'évaluation des produits et services -> `macroscope-p-aps-1-definir-les-criteres-devaluation-des-produits`
+- `1a1d47559826.md` : P-APS.1 Définir les critères d'évaluation des produits et services -> `macroscope-p-aps-1-definir-les-criteres-devaluation-des-1a1d4755`
+- `1c73d499ad9c.md` : P-PRT.1 Définir la portée et les critères d'évaluation du prototype -> `macroscope-p-prt-1-definir-la-portee-et-les-criteres-devaluation`
+- `1d833dabcb94.md` : P-UIS.3 Analyse des tâches, basée sur les cas d'utilisation de niveau utilisateur -> `macroscope-p-uis-3-analyse-des-taches-basee-sur-les-cas-dutilisa`
+- `25564436ed57.md` : P361U Règles administratives et d'organisation du travail -> `macroscope-p361u-regles-administratives-et-dorganisation-du-trav`
+- `2bf847053ef6.md` : P-UIS Conception des règles de fonctionnement de l'interface utilisateur -> `macroscope-p-uis-conception-des-regles-de-fonctionnement-de-lint`
+- `2d46bf316df9.md` : P-APS.6.1 Évaluer les configurations selon chaque critère à la sélection détaillée -> `macroscope-p-aps-6-1-evaluer-les-configurations-selon-chaque-cri`
+- `319b2c54131d.md` : P-APS.5.2 Recommander les produits et services à la présélection -> `macroscope-p-aps-5-2-recommander-les-produits-et-services-a-la-p`
+- `3324adfab2b3.md` : P-OO DM Modélisation de l'architecture et de la conception de niveau réalisateur -> `macroscope-p-oo-dm-modelisation-de-larchitecture-et-de-la-concep`
+- `365563ae1138.md` : P-APS.6.2 Effectuer l'évaluation globale d'une configuration à la sélection détaillée -> `macroscope-p-aps-6-2-effectuer-levaluation-globale-dune-configur`
+- `37c139e8a1ed.md` : P-OO DA Modélisation de l'architecture de niveau réalisateur -> `macroscope-p-oo-da-modelisation-de-larchitecture-de-niveau-reali`
+- `38413e3c2aa7.md` : P-OO DH Harmonisation des modèles de niveau réalisateur -> `macroscope-p-oo-dh-harmonisation-des-modeles-de-niveau-realisate`
+- `393e3a851ce0.md` : P-APS.1.5 Décrire les cas d'essais pour l'évaluation d'un critère -> `macroscope-p-aps-1-5-decrire-les-cas-dessais-pour-levaluation-du`
+- `3abf67d92151.md` : P-APS.1.3 Établir la pondération des aspects et des critères -> `macroscope-p-aps-1-3-etablir-la-ponderation-des-aspects-et-des-c`
+- `40e2b275d287.md` : P-OO DA.1 Définir l'architecture de sous-systèmes, niveau réalisateur -> `macroscope-p-oo-da-1-definir-larchitecture-de-sous-systemes-nive`
+- `43fd83966848.md` : P860G Compte rendu de l'aménagement et de l'installation des sites de la livraison -> `macroscope-p860g-compte-rendu-de-lamenagement-et-de-linstallatio`
+- `46a9b055c23b.md` : P-OO AM Modélisation de l'architecture propriétaire et utilisateur -> `macroscope-p-oo-am-modelisation-de-larchitecture-proprietaire-et`
+- `4813f4900231.md` : P870G Compte rendu de la mise en place du contrôle des systèmes en production de la livraison -> `macroscope-p870g-compte-rendu-de-la-mise-en-place-du-controle-de`
+- `4951686d66b3.md` : P-UIAP.3 Analyse des tâches, basée sur les processus de travail -> `macroscope-p-uiap-3-analyse-des-taches-basee-sur-les-processus-d`
+- `4dd1b49fea98.md` : P-APS.3.2 Préparer une demande d'information détaillée à la clientèle -> `macroscope-p-aps-3-2-preparer-une-demande-dinformation-detaillee`
+- `4e25a07a2624.md` : P-APS.5 Évaluer et recommander les produits et services à la présélection -> `macroscope-p-aps-5-evaluer-et-recommander-les-produits-et-servic`
+- `4f1f0593953c.md` : P-OO DI Modélisation des interactions de niveau réalisateur -> `macroscope-p-oo-di-modelisation-des-interactions-de-niveau-reali`
+- `508798348712.md` : P-OO UH Harmonisation détaillée des modèles de niveau utilisateur -> `macroscope-p-oo-uh-harmonisation-detaillee-des-modeles-de-niveau`
+- `52badcbf3945.md` : P-OO UC.3 Déterminer les collaborations au sein d'une unité de tâche -> `macroscope-p-oo-uc-3-determiner-les-collaborations-au-sein-dune`
+- `5457908060d6.md` : P435C Besoins de la livraison en ressources matérielles -> `macroscope-p435c-besoins-de-la-livraison-en-ressources-materiell`
+- `55b4eeb3b064.md` : P-UIAP.6 Évaluation des orientations et principes d'interface utilisateur -> `macroscope-p-uiap-6-evaluation-des-orientations-et-principes-din`
+- `5c85de19fc0a.md` : P-UIC.4 Prototypage des composantes de l'interface utilisateur -> `macroscope-p-uic-4-prototypage-des-composantes-de-linterface-uti`
+- `5ca152c34593.md` : P-OO UH.1 Revoir les unités de tâche et les étapes de tâche -> `macroscope-p-oo-uh-1-revoir-les-unites-de-tache-et-les-etapes-de`
+- `5cab752a4b3d.md` : P363U Règles de fonctionnement du traitement automatisé -> `macroscope-p363u-regles-de-fonctionnement-du-traitement-automati`
+- `5d075205e3e7.md` : P-APS.2.1 Identifier des produits et services d'intérêt -> `macroscope-p-aps-2-1-identifier-des-produits-et-services-dintere`
+- `5e8f471c4e53.md` : P-OO UO.1 Attribuer un service à une classe utilisateur -> `macroscope-p-oo-uo-1-attribuer-un-service-a-une-classe-utilisate`
+- `6172fc375ece.md` : P-REC Recouvrement de la documentation clé de système -> `macroscope-p-rec-recouvrement-de-la-documentation-cle-d-6172fc37`
+- `62f13f8d5f96.md` : P450G Plan de transition et d'implantation de la livraison -> `macroscope-p450g-plan-de-transition-et-dimplantation-de-la-livra`
+- `66dae81507f6.md` : P-UIAP.1 Analyse des critères de facilité d'utilisation du système -> `macroscope-p-uiap-1-analyse-des-criteres-de-facilite-dutilisatio`
+- `67401548bf03.md` : P186S Spécifications de composante réutilisable d'interface -> `macroscope-p186s-specifications-de-composante-reutilisable-dinte`
+- `6beba47352a0.md` : P-OO DO.3 Optimiser la navigation dans les modèles de classe réalisateur -> `macroscope-p-oo-do-3-optimiser-la-navigation-dans-les-modeles-de`
+- `753f181fd9ad.md` : P487S Spécifications de l'étape de tâche réutilisable -> `macroscope-p487s-specifications-de-letape-de-tache-reut-753f181f`
+- `75ed129b7e0c.md` : P265C Critères de choix des composantes, niveau réalisateur -> `macroscope-p265c-criteres-de-choix-des-composantes-niveau-realis`
+- `7c2970f55bbc.md` : P263C Choix initial des composantes, niveau réalisateur -> `macroscope-p263c-choix-initial-des-composantes-niveau-realisateu`
+- `7c64111e691f.md` : P966G Recommandations relatives aux configurations des produits et des services -> `macroscope-p966g-recommandations-relatives-aux-configurations-de`
+- `7cf0ef27d0d3.md` : P-UIAP Orientations et principes de l'interface utilisateur -> `macroscope-p-uiap-orientations-et-principes-de-linterface-utilis`
+- `7eaa8426a2f3.md` : P-OO AM Modélisation de l'architecture propriétaire et utilisateur -> `macroscope-p-oo-am-modelisation-de-larchitecture-proprietaire-et`
+- `7eaa8426a2f3.md` : P-OO AM Modélisation de l'architecture propriétaire et utilisateur -> `macroscope-p-oo-am-modelisation-de-larchitecture-propri-7eaa8426`
+- `80bad338c1dc.md` : P-UIS.5 Modélisation d'ensemble des composantes de l'interface utilisateur -> `macroscope-p-uis-5-modelisation-densemble-des-composantes-de-lin`
+- `83663f3334d1.md` : P-OO OC.2 Identifier et catégoriser les classes et les associations -> `macroscope-p-oo-oc-2-identifier-et-categoriser-les-classes-et-le`
+- `852b376788c6.md` : P-UIC.3 Conception des composantes de l'interface utilisateur -> `macroscope-p-uic-3-conception-des-composantes-de-linterface-util`
+- `854f2f8ab07b.md` : P-OO DI.3 Définir la dynamique détaillée de l'opération -> `macroscope-p-oo-di-3-definir-la-dynamique-detaillee-de-loperatio`
+- `89a71f557f00.md` : P-UIC.1 Analyse des critères de facilité d'utilisation des unités de tâche -> `macroscope-p-uic-1-analyse-des-criteres-de-facilite-dutilisation`
+- `8a987c1faa81.md` : P540S Spécifications de la séquence réalisateur -> `macroscope-p540s-specifications-de-la-sequence-realisat-8a987c1f`
+- `8cf773f4ee74.md` : P-APS.2 Effectuer le recensement du marché des progiciels -> `macroscope-p-aps-2-effectuer-le-recensement-du-marche-des-progic`
+- `8e967906aad9.md` : P-UIS.1 Analyse des critères de facilité d'utilisation de niveau utilisateur -> `macroscope-p-uis-1-analyse-des-criteres-de-facilite-dutilisation`
+- `94137ab5e724.md` : P-REC.1 Décrire le cadre d'architecture du système -> `macroscope-p-rec-1-decrire-le-cadre-darchitecture-du-sy-94137ab5`
+- `94a351a09ecb.md` : P965G Évaluation des configurations des produits et des services -> `macroscope-p965g-evaluation-des-configurations-des-produits-et-d`
+- `9742b80d9697.md` : P275S Stratégie de changement organisationnel -> `macroscope-p275s-strategie-de-changement-organisationne-9742b80d`
+- `a1a7cea97ce9.md` : P-UIC.2 Révision des circonstances d'utilisation, basée sur la conception des unités de tâche -> `macroscope-p-uic-2-revision-des-circonstances-dutilisation-basee`
+- `a8cb9eae86ef.md` : P-APS.3.3 Préparer une demande d'information sur les produits et services -> `macroscope-p-aps-3-3-preparer-une-demande-dinformation-sur-les-p`
+- `ab7783f544f5.md` : P-OO AM Modélisation de l'architecture propriétaire et utilisateur -> `macroscope-p-oo-am-modelisation-de-larchitecture-proprietaire-et`
+- `ab7783f544f5.md` : P-OO AM Modélisation de l'architecture propriétaire et utilisateur -> `macroscope-p-oo-am-modelisation-de-larchitecture-propri-ab7783f5`
+- `ac3ffce99b7d.md` : P-OO UO.4 Décrire la perspective locale d'un service de classe utilisateur -> `macroscope-p-oo-uo-4-decrire-la-perspective-locale-dun-service-d`
+- `ae117f2c9244.md` : P-OO CM.1 Définir les fonctions et les sous-systèmes d'information -> `macroscope-p-oo-cm-1-definir-les-fonctions-et-les-sous-systemes`
+- `ae157dd3af27.md` : P186S Spécifications de composante réutilisable d'interface -> `macroscope-p186s-specifications-de-composante-reutilisable-dinte`
+- `ae157dd3af27.md` : P186S Spécifications de composante réutilisable d'interface -> `macroscope-p186s-specifications-de-composante-reutilisa-ae157dd3`
+- `afdb0f0cd695.md` : P-APS.2.2 Sélectionner les produits et services à considérer -> `macroscope-p-aps-2-2-selectionner-les-produits-et-services-a-con`
+- `b1ab8dae74e7.md` : P-REC.2 Recouvrement des composantes de niveau réalisateur -> `macroscope-p-rec-2-recouvrement-des-composantes-de-niveau-realis`
+- `b2a466c76617.md` : P950S Base de données de la gestion de configuration -> `macroscope-p950s-base-de-donnees-de-la-gestion-de-confi-b2a466c7`
+- `bc194ebbe5cd.md` : P-REC Recouvrement de la documentation clé de système -> `macroscope-p-rec-recouvrement-de-la-documentation-cle-d-bc194ebb`
+- `c2614bfd69ea.md` : P-OO DH.3 Revoir la répartition des responsabilités des sous-systèmes et classes réalisateur -> `macroscope-p-oo-dh-3-revoir-la-repartition-des-responsabilites-d`
+- `c6747cad0907.md` : P-OO DH.1 Réviser la cohérence des modèles, niveau réalisateur -> `macroscope-p-oo-dh-1-reviser-la-coherence-des-modeles-niveau-rea`
+- `c6955dc42e12.md` : P-UIAP.5 Prototypage des orientations et principes d'interface utilisateur -> `macroscope-p-uiap-5-prototypage-des-orientations-et-principes-di`
+- `cba9ce868d93.md` : P-APS.2.3 Former les configurations de produits et services -> `macroscope-p-aps-2-3-former-les-configurations-de-produits-et-se`
+- `d8851bf12104.md` : P-UIAP.4 Conception des orientations et principes d'interface utilisateur -> `macroscope-p-uiap-4-conception-des-orientations-et-principes-din`
+- `dd26b3674e81.md` : P-APS.1.1 Définir les aspects considérés pour l'évaluation -> `macroscope-p-aps-1-1-definir-les-aspects-consideres-pour-levalua`
+- `de768f15acd7.md` : P-APS.6.3 Recommander les produits et services à la sélection détaillée -> `macroscope-p-aps-6-3-recommander-les-produits-et-services-a-la-s`
+- `e65df0bdf975.md` : P960G Critères d'évaluation des produits et des services -> `macroscope-p960g-criteres-devaluation-des-produits-et-des-servic`
+- `e7004e8016f8.md` : P-UIC.5 Évaluation des composantes de l'interface utilisateur -> `macroscope-p-uic-5-evaluation-des-composantes-de-linterface-util`
+- `ea3a7f902e91.md` : P-UIC Conception des composantes de l'interface utilisateur -> `macroscope-p-uic-conception-des-composantes-de-linterface-utilis`
+- `edee0443db00.md` : P-UIAP.2 Analyse des circonstances d'utilisation du système actuel et du système cible -> `macroscope-p-uiap-2-analyse-des-circonstances-dutilisation-du-sy`
+- `eea588eead94.md` : P-OO UO.3 Déterminer les attributs d'une classe utilisateur -> `macroscope-p-oo-uo-3-determiner-les-attributs-dune-classe-utilis`
+- `f2d5febb3609.md` : P-OO AM Modélisation de l'architecture propriétaire et utilisateur -> `macroscope-p-oo-am-modelisation-de-larchitecture-proprietaire-et`
+- `f2d5febb3609.md` : P-OO AM Modélisation de l'architecture propriétaire et utilisateur -> `macroscope-p-oo-am-modelisation-de-larchitecture-propri-f2d5febb`
+- `f3ff86a3d28f.md` : P-OO UO.2 Établir les spécifications détaillées d'un service utilisateur -> `macroscope-p-oo-uo-2-etablir-les-specifications-detaillees-dun-s`
+- `fef1888b421f.md` : P856G Compte rendu de la négociation des contrats de travail de la livraison -> `macroscope-p856g-compte-rendu-de-la-negociation-des-contrats-de`
+- `ffcf2d82b993.md` : P-OO UC.2 Faire l'analyse détaillée d'une unité de tâche -> `macroscope-p-oo-uc-2-faire-lanalyse-detaillee-dune-unite-de-tach`
+
+## Extractions ambiguës
+
+Les fichiers suivants n’exposaient pas clairement leur propre titre par correspondance d’URL. Le code ou le nom a été inféré depuis le premier lien codé, le texte ou l’URL technique.
+- `007f49b21fba.md` -> `macroscope-px000-livrable-007f49b21fba` : PX000 Livrable 007f49b21fba (fallback fichier)
+- `013f5fef57ac.md` -> `macroscope-p2883-gestion-du-changement-organisationnel` : P2883 Gestion du changement organisationnel (code technique extrait de URL)
+- `026024f17dbf.md` -> `macroscope-p2397-ag-2-conception-et-realisation-dune-livraison` : P2397 AG.2 Conception et réalisation d'une livraison (code technique extrait de URL)
+- `027442d10946.md` -> `macroscope-p27-pilote` : P27 Pilote (code technique extrait de URL)
+- `0455aaa0952b.md` -> `macroscope-p303-mapper` : P303 Mapper (code technique extrait de URL)
+- `057860ca9f8e.md` -> `macroscope-p284-correspondance-des-cles-etrangeres` : P284 Correspondance des clés étrangères (code technique extrait de URL)
+- `05863ece5b38.md` -> `macroscope-m009a-plan-de-la-livraison` : M009A Plan de la livraison (premier lien codé du fichier)
+- `059541e747fc.md` -> `macroscope-p2666-ccm-2-identifier-les-configurations` : P2666 CCM.2 - Identifier les configurations (code technique extrait de URL)
+- `076c1480f8fd.md` -> `macroscope-p359-formateur` : P359 Formateur (code technique extrait de URL)
+- `07870258508b.md` -> `macroscope-m009a-plan-de-la-livraison-07870258` : M009A Plan de la livraison (premier lien codé du fichier)
+- `07d3ddefd7d9.md` -> `macroscope-p44-administrateur-de-base-de-donnees` : P44 Administrateur de base de données (code technique extrait de URL)
+- `0878d459b486.md` -> `macroscope-p295-iterateur` : P295 Itérateur (code technique extrait de URL)
+- `08de9512231d.md` -> `macroscope-p57-expert-du-domaine` : P57 Expert du domaine (code technique extrait de URL)
+- `0a72d6d05183.md` -> `macroscope-p-aps-1-definir-les-criteres-devaluation-des-produits` : P-APS.1 Définir les critères d'évaluation des produits et services (premier lien codé du fichier)
+- `0d8f4d0496c9.md` -> `macroscope-p335-equipe-de-transition-et-dimplantation` : P335 Équipe de transition et d'implantation (code technique extrait de URL)
+- `0dbe3be3925e.md` -> `macroscope-p381-responsable-de-la-securite-pour-le-projet` : P381 Responsable de la sécurité pour le projet (code technique extrait de URL)
+- `1085b4097394.md` -> `macroscope-p325-referentiel` : P325 Référentiel (code technique extrait de URL)
+- `10b2fc3e0558.md` -> `macroscope-p28-utilisateur` : P28 Utilisateur (code technique extrait de URL)
+- `11400bbb2e12.md` -> `macroscope-p351-gof-patrons-de-base-gang-of-four` : P351 GOF - Patrons de base ("Gang of Four") (code technique extrait de URL)
+- `121af22a566b.md` -> `macroscope-p318-equipe-de-maintenance` : P318 Équipe de maintenance (code technique extrait de URL)
+- `12bbb74f5c95.md` -> `macroscope-p555s-specifications-de-composant-logiciel-12bbb74f` : P555S Spécifications de composant logiciel (premier lien codé du fichier)
+- `13b619aae4ce.md` -> `macroscope-p891s-demande-de-changement` : P891S Demande de changement (premier lien codé du fichier)
+- `151e8b1a5977.md` -> `macroscope-p24-equipes-de-realisation` : P24 équipes de réalisation (code technique extrait de URL)
+- `154a082e4241.md` -> `macroscope-m036s` : M036S ) (premier lien codé du fichier)
+- `162ea5d3d107.md` -> `macroscope-p2867-architecture-du-systeme` : P2867 Architecture du système (code technique extrait de URL)
+- `178097f7be62.md` -> `macroscope-m009a-plan-de-la-livraison-178097f7` : M009A Plan de la livraison (premier lien codé du fichier)
+- `17f3fcc8af31.md` -> `macroscope-p891s-demande-de-changement-17f3fcc8` : P891S Demande de changement (premier lien codé du fichier)
+- `1a867ed5cd53.md` -> `macroscope-p600a-composants-logiciels` : P600A Composants logiciels (premier lien codé du fichier)
+- `1af229980b29.md` -> `macroscope-px000-livrable-1af229980b29` : PX000 Livrable 1af229980b29 (fallback fichier)
+- `1baad01b5dc8.md` -> `macroscope-p364-specialiste-du-changement` : P364 Spécialiste du changement (code technique extrait de URL)
+- `1c681aeaefff.md` -> `macroscope-p200a-cadre-darchitecture` : P200A Cadre d'architecture (premier lien codé du fichier)
+- `1d002d2d5690.md` -> `macroscope-p354-analyste-programmeur` : P354 Analyste-programmeur (code technique extrait de URL)
+- `1d85a71cb3d4.md` -> `macroscope-px000-livrable-1d85a71cb3d4` : PX000 Livrable 1d85a71cb3d4 (fallback fichier)
+- `215125ca70f6.md` -> `macroscope-p2431-ag-2-4-effectuer-literation-de-preimplantation` : P2431 AG.2.4 - Effectuer l'itération de préimplantation (code technique extrait de URL)
+- `2242992da4bb.md` -> `macroscope-p200a-cadre-darchitecture-2242992d` : P200A Cadre d'architecture (premier lien codé du fichier)
+- `25b0b8fe5fc0.md` -> `macroscope-p140s-livrable-p140s` : P140S Livrable P140S (code sans nom explicite)
+- `25f1957a85b8.md` -> `macroscope-p891s-demande-de-changement-25f1957a` : P891S Demande de changement (premier lien codé du fichier)
+- `26bbbccf91e7.md` -> `macroscope-m009s-plan-detaille` : M009S Plan détaillé (premier lien codé du fichier)
+- `27e2cdc1c4d8.md` -> `macroscope-px000-livrable-27e2cdc1c4d8` : PX000 Livrable 27e2cdc1c4d8 (fallback fichier)
+- `283e324efb97.md` -> `macroscope-p80-securite` : P80 Sécurité (code technique extrait de URL)
+- `289e3601ed56.md` -> `macroscope-p433-organisation-de-lexploitation-et-de-la-maintenan` : P433 organisation de l'exploitation et de la maintenance (code technique extrait de URL)
+- `2aa000cf7754.md` -> `macroscope-p39-equipe-de-soutien-a-la-prestation` : P39 Équipe de soutien à la prestation (code technique extrait de URL)
+- `2aa9da1c84f0.md` -> `macroscope-p895s-plan-global-de-maintenance` : P895S Plan global de maintenance (premier lien codé du fichier)
+- `2de732e05710.md` -> `macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio` : P298 Groupe d'architecture du portefeuille d'applications (code technique extrait de URL)
+- `2e285d254680.md` -> `macroscope-p331-equipe-de-definition-et-de-validation` : P331 équipe de définition et de validation (code technique extrait de URL)
+- `2ee319aedb8b.md` -> `macroscope-p293-mappers-dheritage` : P293 Mappers d'héritage (code technique extrait de URL)
+- `304fdf6cfa50.md` -> `macroscope-p33-conseiller-en-architecture-de-systeme` : P33 Conseiller en architecture de système (code technique extrait de URL)
+- `30ab8f8c6d55.md` -> `macroscope-p356-responsable-des-essais` : P356 Responsable des essais (code technique extrait de URL)
+- `320df355b89b.md` -> `macroscope-p27-pilote-320df355` : P27 Pilote (code technique extrait de URL)
+- `3298bd6e56ee.md` -> `macroscope-p410s-groupes-dessai` : P410S Groupes d'essai (premier lien codé du fichier)
+- `32d80c1d7ed5.md` -> `macroscope-p-rec-recouvrement-de-la-documentation-cle-de-systeme` : P-REC Recouvrement de la documentation clé de système (premier lien codé du fichier)
+- `33426129af5d.md` -> `macroscope-p323-registre` : P323 Registre (code technique extrait de URL)
+- `3371196b7477.md` -> `macroscope-p19-mise-en-oeuvre-acceleree` : P19 Mise en oeuvre accélérée (code technique extrait de URL)
+- `338fe9d29db4.md` -> `macroscope-p329-interface-separee` : P329 Interface séparée (code technique extrait de URL)
+- `35b20dd7aaae.md` -> `macroscope-p280-eviteur` : P280 Éviteur (code technique extrait de URL)
+- `36ca72f0a18b.md` -> `macroscope-p2863-exigences` : P2863 Exigences (code technique extrait de URL)
+- `36db1eaf461d.md` -> `macroscope-p891s-demande-de-changement-36db1eaf` : P891S Demande de changement (premier lien codé du fichier)
+- `395bc72b08c6.md` -> `macroscope-p265-commande` : P265 Commande (code technique extrait de URL)
+- `397b18c1973a.md` -> `macroscope-p326-acquisition-des-ressources-est-linitialisation` : P326 Acquisition des ressources est l'initialisation (code technique extrait de URL)
+- `3b54142b5a4f.md` -> `macroscope-p297-acquisition-sur-demande` : P297 Acquisition sur demande (code technique extrait de URL)
+- `3c37f686b2a1.md` -> `macroscope-p345-vue-en-deux-etapes` : P345 Vue en deux étapes (code technique extrait de URL)
+- `3decf9f8f8af.md` -> `macroscope-p338-strategie` : P338 Stratégie (code technique extrait de URL)
+- `3e6110815835.md` -> `macroscope-p288-attribut-identite` : P288 Attribut Identité (code technique extrait de URL)
+- `3eb56ed6a760.md` -> `macroscope-p304-mediateur` : P304 Médiateur (code technique extrait de URL)
+- `3ec20ed18cac.md` -> `macroscope-p4616-sequence` : P4616 Séquence (code technique extrait de URL)
+- `3f51aa120bdf.md` -> `macroscope-p60-redacteur` : P60 Rédacteur (code technique extrait de URL)
+- `3f54c705e94c.md` -> `macroscope-p271-mapper-de-donnees` : P271 Mapper de données (code technique extrait de URL)
+- `4108efe14046.md` -> `macroscope-m049s-notes-de-reunion` : M049S Notes de réunion (premier lien codé du fichier)
+- `41867072168d.md` -> `macroscope-p287-forte-cohesion` : P287 Forte cohésion (code technique extrait de URL)
+- `425ca7d913bd.md` -> `macroscope-p273-etat-de-la-session-de-la-base-de-donnees-databas` : P273 État de la session de la base de données (Database Session State) (code technique extrait de URL)
+- `43ca0c52389c.md` -> `macroscope-p4-survol` : P4 Survol (code technique extrait de URL)
+- `44ef5e668fa0.md` -> `macroscope-p891s-demande-de-changement-44ef5e66` : P891S Demande de changement (premier lien codé du fichier)
+- `4543e75d0575.md` -> `macroscope-m049s-notes-de-reunion-4543e75d` : M049S Notes de réunion (premier lien codé du fichier)
+- `4733d991c74c.md` -> `macroscope-p3358-conception-et-realisation-dune-livraison` : P3358 Conception et réalisation d'une livraison (code technique extrait de URL)
+- `49a6c5f0978f.md` -> `macroscope-p315-polymorphisme` : P315 Polymorphisme (code technique extrait de URL)
+- `4a253b57dfab.md` -> `macroscope-p140s-exigences-proprietaire-4a253b57` : P140S Exigences propriétaire (premier lien codé du fichier)
+- `4ba38a78593f.md` -> `macroscope-p256-controleur-dapplication` : P256 Contrôleur d'application (code technique extrait de URL)
+- `4be8a71380bb.md` -> `macroscope-p891s-demande-de-changement-4be8a713` : P891S Demande de changement (premier lien codé du fichier)
+- `4cad40ed6b00.md` -> `macroscope-p353-analyste-fonctionnel` : P353 Analyste fonctionnel (code technique extrait de URL)
+- `4d1bc7f6682e.md` -> `macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio-4d1bc7f6` : P298 Groupe d'architecture du portefeuille d'applications (code technique extrait de URL)
+- `4d995e04ceee.md` -> `macroscope-p314-plugin` : P314 Plugin (code technique extrait de URL)
+- `4dcfa2e44c18.md` -> `macroscope-p201s-livrable-p201s` : P201S Livrable P201S (code sans nom explicite)
+- `4e2d8669c01f.md` -> `macroscope-p277-acquisition-vaillante` : P277 Acquisition vaillante (code technique extrait de URL)
+- `4e7ad224f3b1.md` -> `macroscope-m009a-plan-de-la-livraison-4e7ad224` : M009A Plan de la livraison (premier lien codé du fichier)
+- `4ec88dcacc92.md` -> `macroscope-p951s-plan-de-gestion-de-configuration` : P951S Plan de gestion de configuration (premier lien codé du fichier)
+- `4ecee3f76f39.md` -> `macroscope-p254-enregistrement-actif` : P254 Enregistrement actif (code technique extrait de URL)
+- `4f4eaab0249c.md` -> `macroscope-m009a-plan-de-la-livraison-4f4eaab0` : M009A Plan de la livraison (premier lien codé du fichier)
+- `4f5cfdfb1353.md` -> `macroscope-p750a-cas-dessai-et-resultats` : P750A Cas d'essai et résultats (premier lien codé du fichier)
+- `4fdcac0c2fb7.md` -> `macroscope-p296-couche-supertype` : P296 Couche Supertype (code technique extrait de URL)
+- `5005d049f7bc.md` -> `macroscope-p350-grasp-patrons-daffectation-des-responsabilites` : P350 GRASP - Patrons d'affectation des responsabilités (code technique extrait de URL)
+- `5046af652c1d.md` -> `macroscope-p355-conseiller-en-architecture-technique` : P355 Conseiller en architecture technique (code technique extrait de URL)
+- `50499f561cae.md` -> `macroscope-p317-protection` : P317 Protection (code technique extrait de URL)
+- `50bdcc1ec194.md` -> `macroscope-p140s-livrable-p140s-50bdcc1e` : P140S Livrable P140S (code sans nom explicite)
+- `510e656632db.md` -> `macroscope-p410s-groupes-dessai-510e6566` : P410S Groupes d'essai (premier lien codé du fichier)
+- `5149f4384b10.md` -> `macroscope-p300-emprunt` : P300 Emprunt (code technique extrait de URL)
+- `518a703d303e.md` -> `macroscope-p283-poids-mouche-poids-plume` : P283 Poids-mouche (Poids-plume) (code technique extrait de URL)
+- `51b7b5915a22.md` -> `macroscope-p316-mise-en-commun` : P316 Mise en commun (code technique extrait de URL)
+- `51c25cda83a3.md` -> `macroscope-m009a-plan-de-la-livraison-51c25cda` : M009A Plan de la livraison (premier lien codé du fichier)
+- `5203a350c9f9.md` -> `macroscope-p319-chef-de-lequipe-de-maintenance` : P319 Chef de l'équipe de maintenance (code technique extrait de URL)
+- `52ab18694434.md` -> `macroscope-p951s-plan-de-gestion-de-configuration-52ab1869` : P951S Plan de gestion de configuration (premier lien codé du fichier)
+- `53e21510f0f5.md` -> `macroscope-p2418-ag-2-3-realiser-une-iteration-fonctionnelle` : P2418 AG.2.3 - Réaliser une itération fonctionnelle (code technique extrait de URL)
+- `53f27f7cc26f.md` -> `macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio-53f27f7c` : P298 Groupe d'architecture du portefeuille d'applications (code technique extrait de URL)
+- `5432d87aede9.md` -> `macroscope-p368-analyste-programmeur-principal` : P368 Analyste-programmeur principal (code technique extrait de URL)
+- `55286ee0f370.md` -> `macroscope-p2594-taches-de-maintenance-courantes` : P2594 tâches de maintenance courantes (code technique extrait de URL)
+- `5618aa58b0a9.md` -> `macroscope-p354-analyste-programmeur-5618aa58` : P354 Analyste-programmeur (code technique extrait de URL)
+- `572546b05404.md` -> `macroscope-p450s-plan-dimplantation` : P450S Plan d'implantation (premier lien codé du fichier)
+- `5775e8a59fbc.md` -> `macroscope-p57-expert-du-domaine-5775e8a5` : P57 Expert du domaine (code technique extrait de URL)
+- `57dcb9f84aa4.md` -> `macroscope-p355-conseiller-en-architecture-technique-57dcb9f8` : P355 Conseiller en architecture technique (code technique extrait de URL)
+- `57ed125aa6e8.md` -> `macroscope-p891s-demande-de-changement-57ed125a` : P891S Demande de changement (premier lien codé du fichier)
+- `58689495df9e.md` -> `macroscope-p200s-livrable-p200s` : P200S Livrable P200S (code sans nom explicite)
+- `58f23081e5dd.md` -> `macroscope-p891s-demande-de-changement-58f23081` : P891S Demande de changement (premier lien codé du fichier)
+- `5997325b3a31.md` -> `macroscope-p4617-table-de-decision` : P4617 Table de décision (code technique extrait de URL)
+- `59fa547380e3.md` -> `macroscope-p700s-guide-dutilisation` : P700S Guide d'utilisation (premier lien codé du fichier)
+- `5a3de7bc60dc.md` -> `macroscope-p308-argent` : P308 Argent (code technique extrait de URL)
+- `5a406cd02dcc.md` -> `macroscope-p53-equipe-darchitecture-de-systeme` : P53 équipe d'architecture de système (code technique extrait de URL)
+- `5bcb9c117004.md` -> `macroscope-p891s-demande-de-changement-5bcb9c11` : P891S Demande de changement (premier lien codé du fichier)
+- `5d38aeffd282.md` -> `macroscope-p279-asynchrone-base-sur-des-evenements` : P279 Asynchrone basé sur des événements (code technique extrait de URL)
+- `5dcd1f0ef993.md` -> `macroscope-p310-verrou-optimiste-hors-ligne` : P310 Verrou optimiste hors-ligne (code technique extrait de URL)
+- `5eaaca0c0199.md` -> `macroscope-p951s-plan-de-gestion-de-configuration-5eaaca0c` : P951S Plan de gestion de configuration (premier lien codé du fichier)
+- `602078b891a6.md` -> `macroscope-p2399-ag-2-1-planifier-la-livraison` : P2399 AG.2.1 - Planifier la livraison (code technique extrait de URL)
+- `6065602bd8b1.md` -> `macroscope-p352-peaa-patrons-darchitecture-des-applications-dent` : P352 PEAA - Patrons d'architecture des applications d'entreprise (code technique extrait de URL)
+- `60b482854c37.md` -> `macroscope-p60-redacteur-60b48285` : P60 Rédacteur (code technique extrait de URL)
+- `6172fc375ece.md` -> `macroscope-p-rec-recouvrement-de-la-documentation-cle-d-6172fc37` : P-REC Recouvrement de la documentation clé de système (premier lien codé du fichier)
+- `623aa275704a.md` -> `macroscope-p3320-analyse-preliminaire` : P3320 Analyse préliminaire (code technique extrait de URL)
+- `645170659987.md` -> `macroscope-px000-livrable-645170659987` : PX000 Livrable 645170659987 (fallback fichier)
+- `6633870fb298.md` -> `macroscope-p891s-demande-de-changement-6633870f` : P891S Demande de changement (premier lien codé du fichier)
+- `667be355482f.md` -> `macroscope-p3434-implantation-dune-livraison` : P3434 Implantation d'une livraison (code technique extrait de URL)
+- `66d2a7ffeebc.md` -> `macroscope-p302-comite-de-coordination-du-projet` : P302 comité de coordination du projet (code technique extrait de URL)
+- `684e30457826.md` -> `macroscope-p2871-specifications-du-systeme` : P2871 Spécifications du système (code technique extrait de URL)
+- `68e36aec91e0.md` -> `macroscope-p327-gestionnaire-de-cycle-de-vie-des-ressources` : P327 Gestionnaire de cycle de vie des ressources (code technique extrait de URL)
+- `690f14b1f992.md` -> `macroscope-p2672-ccm-4-rendre-compte-de-letat-de-configuration` : P2672 CCM.4 - Rendre compte de l'état de configuration (code technique extrait de URL)
+- `6ad4f2fa5e65.md` -> `macroscope-p28-utilisateur-6ad4f2fa` : P28 Utilisateur (code technique extrait de URL)
+- `6c0f42fbef5a.md` -> `macroscope-p289-tableau-des-identites` : P289 Tableau des identités (code technique extrait de URL)
+- `6c2bec3df707.md` -> `macroscope-p170s-page-doutils-pratiques-du` : P170S page d'outils pratiques du (premier lien codé du fichier)
+- `712f1da3bb5c.md` -> `macroscope-m009a-plan-de-la-livraison-712f1da3` : M009A Plan de la livraison (premier lien codé du fichier)
+- `7375d1b207f3.md` -> `macroscope-p302-comite-de-coordination-du-projet-7375d1b2` : P302 comité de coordination du projet (code technique extrait de URL)
+- `7474168ccb1b.md` -> `macroscope-p12743-diagramme-structurel` : P12743 Diagramme structurel (code technique extrait de URL)
+- `75b0f478df97.md` -> `macroscope-p324-facade-a-distance` : P324 Façade à distance (code technique extrait de URL)
+- `76278ad5e65c.md` -> `macroscope-p301-recherche` : P301 Recherche (code technique extrait de URL)
+- `78a3131fa139.md` -> `macroscope-p346-transaction` : P346 Transaction (code technique extrait de URL)
+- `7a3a93c988e6.md` -> `macroscope-p329-interface-separee-7a3a93c9` : P329 Interface séparée (code technique extrait de URL)
+- `7b3b49049d14.md` -> `macroscope-m060a-lecons-apprises` : M060A Leçons apprises (premier lien codé du fichier)
+- `7bcb19c596e6.md` -> `macroscope-p4612-forme-syntaxique-simple` : P4612 Forme syntaxique simple (code technique extrait de URL)
+- `7e55604a41cf.md` -> `macroscope-p339-passerelle-pour-table-de-donnees` : P339 Passerelle pour table de données (code technique extrait de URL)
+- `7eaa8426a2f3.md` -> `macroscope-p-oo-am-modelisation-de-larchitecture-propri-7eaa8426` : P-OO AM Modélisation de l'architecture propriétaire et utilisateur (premier lien codé du fichier)
+- `7efd56dd3fb3.md` -> `macroscope-p750a-cas-dessai-et-resultats-7efd56dd` : P750A Cas d'essai et résultats (premier lien codé du fichier)
+- `807a299a44bc.md` -> `macroscope-p358-equipe-du-projet` : P358 Équipe du projet (code technique extrait de URL)
+- `812e4ba7d256.md` -> `macroscope-p30-chef-de-projet` : P30 Chef de projet (code technique extrait de URL)
+- `81edeb7e5222.md` -> `macroscope-p262-table-dheritage-des-classes` : P262 Table d'héritage des classes (code technique extrait de URL)
+- `82624062cae9.md` -> `macroscope-p328-comite-de-direction-du-projet` : P328 comité de direction du projet (code technique extrait de URL)
+- `84d49d259eb5.md` -> `macroscope-p261-chaine-de-responsabilite` : P261 Chaîne de responsabilité (code technique extrait de URL)
+- `854eef0b1ecc.md` -> `macroscope-p337-etat` : P337 État (code technique extrait de URL)
+- `8b11e88c37a3.md` -> `macroscope-p270-createur` : P270 Créateur (code technique extrait de URL)
+- `8b87ced6bbe9.md` -> `macroscope-p315-polymorphisme-8b87ced6` : P315 Polymorphisme (code technique extrait de URL)
+- `8c4dcd38bed8.md` -> `macroscope-px000-livrable-8c4dcd38bed8` : PX000 Livrable 8c4dcd38bed8 (fallback fichier)
+- `8cdf4da14ac3.md` -> `macroscope-px000-livrable-8cdf4da14ac3` : PX000 Livrable 8cdf4da14ac3 (fallback fichier)
+- `8d632156c7ee.md` -> `macroscope-px000-livrable-8d632156c7ee` : PX000 Livrable 8d632156c7ee (fallback fichier)
+- `8d8e0649257b.md` -> `macroscope-p341-modele-de-methode` : P341 Modèle de méthode (code technique extrait de URL)
+- `8efa018969e6.md` -> `macroscope-p338-strategie-8efa0189` : P338 Stratégie (code technique extrait de URL)
+- `8faf54071830.md` -> `macroscope-p276-modele-du-domaine` : P276 Modèle du domaine (code technique extrait de URL)
+- `916dbcd70bed.md` -> `macroscope-p4614-activite-conditionnelle` : P4614 Activité conditionnelle (code technique extrait de URL)
+- `91894be41876.md` -> `macroscope-p270s-strategie-dimplantation-91894be4` : P270S Stratégie d'implantation (premier lien codé du fichier)
+- `928a234d54bc.md` -> `macroscope-p6136-reunion-de-mise-au-point` : P6136 Réunion de mise au point (code technique extrait de URL)
+- `92fa1ac949a7.md` -> `macroscope-p328-comite-de-direction-du-projet-92fa1ac9` : P328 comité de direction du projet (code technique extrait de URL)
+- `9388c53d19b8.md` -> `macroscope-px000-livrable-9388c53d19b8` : PX000 Livrable 9388c53d19b8 (fallback fichier)
+- `939cce7e6c2b.md` -> `macroscope-p330-numerotation-par-un-objet-large-unique-lob` : P330 Numérotation par un objet large unique (LOB) (code technique extrait de URL)
+- `93e759940689.md` -> `macroscope-p331-equipe-de-definition-et-de-validation-93e75994` : P331 équipe de définition et de validation (code technique extrait de URL)
+- `93f112e687ad.md` -> `macroscope-p343-script-de-transaction` : P343 Script de transaction (code technique extrait de URL)
+- `971395e49bc3.md` -> `macroscope-p318-equipe-de-maintenance-971395e4` : P318 Équipe de maintenance (code technique extrait de URL)
+- `97c30a1cbec0.md` -> `macroscope-p312-acquisition-partielle` : P312 Acquisition partielle (code technique extrait de URL)
+- `993ffc1dfdfb.md` -> `macroscope-p275-correspondance-dependante` : P275 Correspondance dépendante (code technique extrait de URL)
+- `99a8157ca1b2.md` -> `macroscope-p274-decorateur` : P274 Décorateur (code technique extrait de URL)
+- `9a019b06a33b.md` -> `macroscope-p267-table-concrete-dheritage` : P267 Table concrète d'héritage (code technique extrait de URL)
+- `9b421a4d27f2.md` -> `macroscope-p317-protection-9b421a4d` : P317 Protection (code technique extrait de URL)
+- `9cce5ee192ae.md` -> `macroscope-p405s-strategie-de-realisation-et-dessai-9cce5ee1` : P405S Stratégie de réalisation et d'essai (premier lien codé du fichier)
+- `9db9981cac00.md` -> `macroscope-p951s-plan-de-gestion-de-configuration-9db9981c` : P951S Plan de gestion de configuration (premier lien codé du fichier)
+- `9e4e77d9b296.md` -> `macroscope-p290-verrou-implicite` : P290 Verrou implicite (code technique extrait de URL)
+- `9ec0e2217e30.md` -> `macroscope-p282-fabrique-concrete` : P282 Fabrique concrète (code technique extrait de URL)
+- `a1385dd26a9e.md` -> `macroscope-p357-testeur` : P357 Testeur (code technique extrait de URL)
+- `a138e7bf8c36.md` -> `macroscope-p259-monteur` : P259 Monteur (code technique extrait de URL)
+- `a1b064c49d1b.md` -> `macroscope-p2415-ag-2-2-realiser-literation-zero` : P2415 AG.2.2 - Réaliser l'itération zéro (code technique extrait de URL)
+- `a1e4b0a212df.md` -> `macroscope-p12745-elements-de-notation-generaux` : P12745 Éléments de notation généraux (code technique extrait de URL)
+- `a277f12bcc92.md` -> `macroscope-p490s-specifications-de-lunite-de-tache` : P490S Spécifications de l'unité de tâche (premier lien codé du fichier)
+- `a3f56a2118f6.md` -> `macroscope-p891s-demande-de-changement-a3f56a21` : P891S Demande de changement (premier lien codé du fichier)
+- `a6bd030d17f8.md` -> `macroscope-px000-livrable-a6bd030d17f8` : PX000 Livrable a6bd030d17f8 (fallback fichier)
+- `a72e614c600c.md` -> `macroscope-m009s-plan-detaille-a72e614c` : M009S Plan détaillé (premier lien codé du fichier)
+- `a730c306a91a.md` -> `macroscope-p321-objet-de-requete` : P321 Objet de requête (code technique extrait de URL)
+- `a84bc7d828fc.md` -> `macroscope-p416-partie-prenante` : P416 Partie prenante (code technique extrait de URL)
+- `a884d58c6f2f.md` -> `macroscope-p30-chef-de-projet-a884d58c` : P30 Chef de projet (code technique extrait de URL)
+- `aaa48f5dabdd.md` -> `macroscope-p291-indirection` : P291 Indirection (code technique extrait de URL)
+- `aac383ee4e43.md` -> `macroscope-p319-chef-de-lequipe-de-maintenance-aac383ee` : P319 Chef de l'équipe de maintenance (code technique extrait de URL)
+- `ab7783f544f5.md` -> `macroscope-p-oo-am-modelisation-de-larchitecture-propri-ab7783f5` : P-OO AM Modélisation de l'architecture propriétaire et utilisateur (premier lien codé du fichier)
+- `abd6554c883b.md` -> `macroscope-p257-table-de-correspondance-des-associations` : P257 Table de correspondance des associations (code technique extrait de URL)
+- `ac91b2c5937c.md` -> `macroscope-p359-formateur-ac91b2c5` : P359 Formateur (code technique extrait de URL)
+- `aefb55c18e10.md` -> `macroscope-p951s-plan-de-gestion-de-configuration-aefb55c1` : P951S Plan de gestion de configuration (premier lien codé du fichier)
+- `af326a90d0b2.md` -> `macroscope-p951s-plan-de-gestion-de-configuration-af326a90` : P951S Plan de gestion de configuration (premier lien codé du fichier)
+- `b0609f8882a7.md` -> `macroscope-p2678-ccm-3-controler-les-elements-de-configuration` : P2678 CCM.3 - Contrôler les éléments de configuration (code technique extrait de URL)
+- `b0aac5604e21.md` -> `macroscope-p320-fabrication-pure` : P320 Fabrication pure (code technique extrait de URL)
+- `b2a466c76617.md` -> `macroscope-p950s-base-de-donnees-de-la-gestion-de-confi-b2a466c7` : P950S Base de données de la gestion de configuration (premier lien codé du fichier)
+- `b3983a65a278.md` -> `macroscope-p4613-condition` : P4613 Condition (code technique extrait de URL)
+- 90 extractions ambiguës supplémentaires non listées pour garder le rapport lisible.
+
+## Hypothèses retenues
+
+- Le répertoire source `./livrables` demandé correspond au corpus local `./macroscope/livrables` présent dans ce dépôt.
+- Quand un fichier ne contenait pas son propre titre, le nom du livrable a été extrait depuis les liens d’autres pages pointant vers la même URL.
+- Quand plusieurs fichiers pointaient vers le même livrable, un suffixe basé sur l’identifiant de fichier a été ajouté pour garder une skill par fichier analysé.
+- Les livrables Macroscope sont interprétés comme des artefacts, vues spécialisées, gabarits ou annexes détaillées dans une méthode d’architecture de service alignée sur TOGAF.
+- Le domaine TOGAF principal est inféré par mots-clés et doit être raffiné manuellement pour les livrables complexes ou transversaux.
+
+## Recommandations d’amélioration
+
+- Construire progressivement un index canonique `code -> fichier source -> titre officiel` pour réduire les inférences par URL.
+- Raffiner les correspondances TOGAF des livrables critiques avec validation humaine.
+- Ajouter des évaluations ciblées pour les livrables les plus utilisés.
+- Dédupliquer ou regrouper les pages sources qui représentent le même livrable si l’objectif devient une skill par livrable officiel plutôt qu’une skill par fichier source.
+
+## Consolidation des doublons exacts
+
+- Groupes fusionnés : 78
+- Répertoires de skills supprimés : 79
+- Critère : contenu de `references/LIVRABLE.md` identique après neutralisation de la ligne `Fichier source`.
+- Action : conservation de la skill canonique, ajout des sources fusionnées dans `Sources analysées`, suppression des répertoires redondants.
+
+- P-OO AM Modélisation de l'architecture propriétaire et utilisateur : conservé `macroscope-p-oo-am-modelisation-de-larchitecture-propri-ab7783f5`, supprimé `macroscope-p-oo-am-modelisation-de-larchitecture-propri-f2d5febb`.
+- P-REC.1 Décrire le cadre d'architecture du système : conservé `macroscope-p-rec-1-decrire-le-cadre-darchitecture-du-systeme`, supprimé `macroscope-p-rec-1-decrire-le-cadre-darchitecture-du-sy-94137ab5`.
+- P-UID Conception de l'interface utilisateur : conservé `macroscope-p-uid-conception-de-linterface-utilisateur-b39e1930`, supprimé `macroscope-p-uid-conception-de-linterface-utilisateur-d7f29519`.
+- P100S Opportunité : conservé `macroscope-p100s-opportunite`, supprimé `macroscope-p100s-opportunite-7f998ffd`.
+- P140S Exigences propriétaire : conservé `macroscope-p140s-exigences-proprietaire`, supprimé `macroscope-p140s-exigences-proprietaire-c8d4ee9c`.
+- P170S Structure de l'information : conservé `macroscope-p170s-structure-de-linformation`, supprimé `macroscope-p170s-structure-de-linformation-f557ceec`.
+- P180S Spécifications de composante du noyau : conservé `macroscope-p180s-specifications-de-composante-du-noyau`, supprimé `macroscope-p180s-specifications-de-composante-du-noyau-f4d75c77`.
+- P186S Spécifications de composante réutilisable d'interface : conservé `macroscope-p186s-specifications-de-composante-reutilisable-dinte`, supprimé `macroscope-p186s-specifications-de-composante-reutilisa-ae157dd3`.
+- P200A Cadre d'architecture : conservé `macroscope-p200a-cadre-darchitecture`, supprimé `macroscope-p200a-cadre-darchitecture-2242992d`.
+- P200S Structure propriétaire du système : conservé `macroscope-p200s-structure-proprietaire-du-systeme`, supprimé `macroscope-p200s-structure-proprietaire-du-systeme-dd8ab337`.
+- P201S Processus du système : conservé `macroscope-p201s-processus-du-systeme`, supprimé `macroscope-p201s-processus-du-systeme-9253e2e0`.
+- P219S Architecture logicielle : conservé `macroscope-p219s-architecture-logicielle`, supprimé `macroscope-p219s-architecture-logicielle-2cd192b2`.
+- P230S Orientations utilisateur : conservé `macroscope-p230s-orientations-utilisateur`, supprimé `macroscope-p230s-orientations-utilisateur-9203d378`.
+- P231S Orientations réalisateur : conservé `macroscope-p231s-orientations-realisateur`, supprimé `macroscope-p231s-orientations-realisateur-f29f4314`.
+- P240S Principes utilisateur : conservé `macroscope-p240s-principes-utilisateur`, supprimé `macroscope-p240s-principes-utilisateur-74fcefb4`.
+- P250S Structure utilisateur du système : conservé `macroscope-p250s-structure-utilisateur-du-systeme`, supprimé `macroscope-p250s-structure-utilisateur-du-systeme-9e8d2257`.
+- P251S Processus de travail : conservé `macroscope-p251s-processus-de-travail`, supprimé `macroscope-p251s-processus-de-travail-39eb4cc6`.
+- P261S Principes réalisateur : conservé `macroscope-p261s-principes-realisateur`, supprimé `macroscope-p261s-principes-realisateur-8544d4e7`.
+- P267S Choix de composantes réalisateur : conservé `macroscope-p267s-choix-de-composantes-realisateur`, supprimé `macroscope-p267s-choix-de-composantes-realisateur-6a483660`.
+- P269S Technologie et répartition utilisateur : conservé `macroscope-p269s-technologie-et-repartition-utilisateur`, supprimé `macroscope-p269s-technologie-et-repartition-utilisateur-4b462d89`.
+- P27 Pilote : conservé `macroscope-p27-pilote`, supprimé `macroscope-p27-pilote-320df355`.
+- P270S Stratégie d'implantation : conservé `macroscope-p270s-strategie-dimplantation`, supprimé `macroscope-p270s-strategie-dimplantation-c4c3d231`.
+- P275S Stratégie de changement organisationnel : conservé `macroscope-p275s-strategie-de-changement-organisationnel`, supprimé `macroscope-p275s-strategie-de-changement-organisationne-9742b80d`.
+- P28 Utilisateur : conservé `macroscope-p28-utilisateur`, supprimé `macroscope-p28-utilisateur-6ad4f2fa`.
+- P280S Impacts : conservé `macroscope-p280s-impacts`, supprimé `macroscope-p280s-impacts-f4b312f0`.
+- P290S Coûts et bénéfices : conservé `macroscope-p290s-couts-et-benefices`, supprimé `macroscope-p290s-couts-et-benefices-b0dd9cce`.
+- P298 Groupe d'architecture du portefeuille d'applications : conservé `macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio`, supprimé `macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio-53f27f7c`.
+- P30 Chef de projet : conservé `macroscope-p30-chef-de-projet`, supprimé `macroscope-p30-chef-de-projet-a884d58c`.
+- P318 Équipe de maintenance : conservé `macroscope-p318-equipe-de-maintenance`, supprimé `macroscope-p318-equipe-de-maintenance-d85312aa`.
+- P319 Chef de l'équipe de maintenance : conservé `macroscope-p319-chef-de-lequipe-de-maintenance`, supprimé `macroscope-p319-chef-de-lequipe-de-maintenance-aac383ee`.
+- P320 Fabrication pure : conservé `macroscope-p320-fabrication-pure-c8aa5092`, supprimé `macroscope-p320-fabrication-pure-f85375bb`.
+- P328 comité de direction du projet : conservé `macroscope-p328-comite-de-direction-du-projet`, supprimé `macroscope-p328-comite-de-direction-du-projet-92fa1ac9`.
+- P33 Conseiller en architecture de système : conservé `macroscope-p33-conseiller-en-architecture-de-systeme`, supprimé `macroscope-p33-conseiller-en-architecture-de-systeme-b4a3a73e`.
+- P3320 Analyse préliminaire : conservé `macroscope-p3320-analyse-preliminaire`, supprimé `macroscope-p3320-analyse-preliminaire-beaf71de`.
+- P3357 Architecture : conservé `macroscope-p3357-architecture`, supprimé `macroscope-p3357-architecture-f5b0af08`.
+- P3358 Conception et réalisation d'une livraison : conservé `macroscope-p3358-conception-et-realisation-dune-livraison`, supprimé `macroscope-p3358-conception-et-realisation-dune-livraison-f7328500`.
+- P340S Stratégie de conversion : conservé `macroscope-p340s-strategie-de-conversion`, supprimé `macroscope-p340s-strategie-de-conversion-efb8abbb`.
+- P3434 Implantation d'une livraison : conservé `macroscope-p3434-implantation-dune-livraison`, supprimé `macroscope-p3434-implantation-dune-livraison-dfe34f01`.
+- P353 Analyste fonctionnel : conservé `macroscope-p353-analyste-fonctionnel`, supprimé `macroscope-p353-analyste-fonctionnel-e150cc73`.
+- P354 Analyste-programmeur : conservé `macroscope-p354-analyste-programmeur`, supprimé `macroscope-p354-analyste-programmeur-5618aa58`.
+- P355 Conseiller en architecture technique : conservé `macroscope-p355-conseiller-en-architecture-technique`, supprimé `macroscope-p355-conseiller-en-architecture-technique-57dcb9f8`.
+- P356 Responsable des essais : conservé `macroscope-p356-responsable-des-essais`, supprimé `macroscope-p356-responsable-des-essais-d436e0bd`.
+- P357 Testeur : conservé `macroscope-p357-testeur`, supprimé `macroscope-p357-testeur-ebc50aa4`.
+- P359 Formateur : conservé `macroscope-p359-formateur`, supprimé `macroscope-p359-formateur-ac91b2c5`.
+- P360S Règles utilisateur : conservé `macroscope-p360s-regles-utilisateur`, supprimé `macroscope-p360s-regles-utilisateur-8c2facbc`.
+- P370S Infrastructure technologique : conservé `macroscope-p370s-infrastructure-technologique`, supprimé `macroscope-p370s-infrastructure-technologique-4b14c78c`.
+- P380S Règles réalisateur : conservé `macroscope-p380s-regles-realisateur`, supprimé `macroscope-p380s-regles-realisateur-b989d782`.
+- P4 Survol : conservé `macroscope-p4-survol`, supprimé `macroscope-p4-survol-f211161f`, `macroscope-p4-survol-f3522b50`.
+- P405S Stratégie de réalisation et d'essai : conservé `macroscope-p405s-strategie-de-realisation-et-dessai`, supprimé `macroscope-p405s-strategie-de-realisation-et-dessai-8139825c`.
+- P410S Groupes d'essai : conservé `macroscope-p410s-groupes-dessai`, supprimé `macroscope-p410s-groupes-dessai-ef77dd7d`.
+- P410S Groupes d'essai : conservé `macroscope-p410s-groupes-dessai-4d9a91d8`, supprimé `macroscope-p410s-groupes-dessai-fe588212`.
+- P415S Livrable Macroscope : conservé `macroscope-p415s-livrable-macroscope`, supprimé `macroscope-p415s-livrable-macroscope-de006989`.
+- P44 Administrateur de base de données : conservé `macroscope-p44-administrateur-de-base-de-donnees`, supprimé `macroscope-p44-administrateur-de-base-de-donnees-c97ce67b`.
+- P450S Plan d'implantation : conservé `macroscope-p450s-plan-dimplantation-857db91d`, supprimé `macroscope-p450s-plan-dimplantation-eb5e3b8d`.
+- P487S Spécifications de l'étape de tâche réutilisable : conservé `macroscope-p487s-specifications-de-letape-de-tache-reutilisable`, supprimé `macroscope-p487s-specifications-de-letape-de-tache-reut-753f181f`.
+- P490S Spécifications de l'unité de tâche : conservé `macroscope-p490s-specifications-de-lunite-de-tache-c4866acb`, supprimé `macroscope-p490s-specifications-de-lunite-de-tache-e029a2e3`.
+- P510S Structure de l'information persistante : conservé `macroscope-p510s-structure-de-linformation-persistante`, supprimé `macroscope-p510s-structure-de-linformation-persistante-c847d395`.
+- P540S Spécifications de la séquence réalisateur : conservé `macroscope-p540s-specifications-de-la-sequence-realisateur`, supprimé `macroscope-p540s-specifications-de-la-sequence-realisat-8a987c1f`.
+- P555S Spécifications de composant logiciel : conservé `macroscope-p555s-specifications-de-composant-logiciel`, supprimé `macroscope-p555s-specifications-de-composant-logiciel-c50475e9`.
+- P57 Expert du domaine : conservé `macroscope-p57-expert-du-domaine`, supprimé `macroscope-p57-expert-du-domaine-5775e8a5`.
+- P580S Spécifications de processus automatisé : conservé `macroscope-p580s-specifications-de-processus-automatise`, supprimé `macroscope-p580s-specifications-de-processus-automatise-58e304b9`.
+- P60 Rédacteur : conservé `macroscope-p60-redacteur`, supprimé `macroscope-p60-redacteur-60b48285`.
+- P600S Livrable Macroscope : conservé `macroscope-p600s-livrable-macroscope`, supprimé `macroscope-p600s-livrable-macroscope-950c8876`.
+- P700S Guide d'utilisation : conservé `macroscope-p700s-guide-dutilisation-ab4271f4`, supprimé `macroscope-p700s-guide-dutilisation-d86f8e31`.
+- P705S Guide d'opération : conservé `macroscope-p705s-guide-doperation`, supprimé `macroscope-p705s-guide-doperation-7cb03bad`.
+- P710S Matériel de formation : conservé `macroscope-p710s-materiel-de-formation`, supprimé `macroscope-p710s-materiel-de-formation-e8d54e21`.
+- P715S Matériel de communication : conservé `macroscope-p715s-materiel-de-communication`, supprimé `macroscope-p715s-materiel-de-communication-60f342b6`.
+- P740S Environnement d'essai : conservé `macroscope-p740s-environnement-dessai`, supprimé `macroscope-p740s-environnement-dessai-bff75e8e`.
+- P750S Cas d'essai : conservé `macroscope-p750s-cas-dessai`, supprimé `macroscope-p750s-cas-dessai-b8018eea`.
+- P770S Résultats d'essai : conservé `macroscope-p770s-resultats-dessai`, supprimé `macroscope-p770s-resultats-dessai-e4876a6e`.
+- P805S Compte rendu d'implantation : conservé `macroscope-p805s-compte-rendu-dimplantation`, supprimé `macroscope-p805s-compte-rendu-dimplantation-aac56276`.
+- P891S Demande de changement : conservé `macroscope-p891s-demande-de-changement-36db1eaf`, supprimé `macroscope-p891s-demande-de-changement-57ed125a`.
+- P891S Demande de changement : conservé `macroscope-p891s-demande-de-changement-44ef5e66`, supprimé `macroscope-p891s-demande-de-changement-4be8a713`.
+- P891S Demande de changement : conservé `macroscope-p891s-demande-de-changement-840e1d36`, supprimé `macroscope-p891s-demande-de-changement-cc70e728`.
+- P891S Demande de changement : conservé `macroscope-p891s-demande-de-changement-c5a1ce34`, supprimé `macroscope-p891s-demande-de-changement-ea707c49`.
+- P900S Suivi des exigences : conservé `macroscope-p900s-suivi-des-exigences`, supprimé `macroscope-p900s-suivi-des-exigences-e9b09cce`.
+- P901S Registre des demandes de changement : conservé `macroscope-p901s-registre-des-demandes-de-changement`, supprimé `macroscope-p901s-registre-des-demandes-de-changement-a9b3c403`.
+- P902S Compte rendu de l'information : conservé `macroscope-p902s-compte-rendu-de-linformation`, supprimé `macroscope-p902s-compte-rendu-de-linformation-92bfc4c7`.
+
+## Déplacement des variantes
+
+- Groupes avec variantes déplacées : 47
+- Répertoires déplacés vers `skills/variantes/` : 77
+- Skills canoniques actives restantes dans `skills/` : 439
+- Critère : même code et même nom de livrable, mais référence non identique après fusion des doublons exacts.
+- Action : conservation d’une skill canonique dans `skills/`, déplacement des variantes dans `skills/variantes/`, création de `skills/variantes/INDEX.md`.
+
+- `skills/macroscope-m002a-enonce-du-projet-d116650d` -> `skills/variantes/macroscope-m002a-enonce-du-projet-d116650d` ; canonique : `macroscope-m002a-enonce-du-projet`.
+- `skills/macroscope-m009a-plan-de-la-livraison-07870258` -> `skills/variantes/macroscope-m009a-plan-de-la-livraison-07870258` ; canonique : `macroscope-m009a-plan-de-la-livraison`.
+- `skills/macroscope-m009a-plan-de-la-livraison-178097f7` -> `skills/variantes/macroscope-m009a-plan-de-la-livraison-178097f7` ; canonique : `macroscope-m009a-plan-de-la-livraison`.
+- `skills/macroscope-m009a-plan-de-la-livraison-2017ffcb` -> `skills/variantes/macroscope-m009a-plan-de-la-livraison-2017ffcb` ; canonique : `macroscope-m009a-plan-de-la-livraison`.
+- `skills/macroscope-m009a-plan-de-la-livraison-4e7ad224` -> `skills/variantes/macroscope-m009a-plan-de-la-livraison-4e7ad224` ; canonique : `macroscope-m009a-plan-de-la-livraison`.
+- `skills/macroscope-m009a-plan-de-la-livraison-4f4eaab0` -> `skills/variantes/macroscope-m009a-plan-de-la-livraison-4f4eaab0` ; canonique : `macroscope-m009a-plan-de-la-livraison`.
+- `skills/macroscope-m009a-plan-de-la-livraison-51c25cda` -> `skills/variantes/macroscope-m009a-plan-de-la-livraison-51c25cda` ; canonique : `macroscope-m009a-plan-de-la-livraison`.
+- `skills/macroscope-m009a-plan-de-la-livraison-712f1da3` -> `skills/variantes/macroscope-m009a-plan-de-la-livraison-712f1da3` ; canonique : `macroscope-m009a-plan-de-la-livraison`.
+- `skills/macroscope-m009a-plan-de-la-livraison-ee0b8048` -> `skills/variantes/macroscope-m009a-plan-de-la-livraison-ee0b8048` ; canonique : `macroscope-m009a-plan-de-la-livraison`.
+- `skills/macroscope-m009a-plan-de-la-livraison-f61769e9` -> `skills/variantes/macroscope-m009a-plan-de-la-livraison-f61769e9` ; canonique : `macroscope-m009a-plan-de-la-livraison`.
+- `skills/macroscope-m009s-plan-detaille-a72e614c` -> `skills/variantes/macroscope-m009s-plan-detaille-a72e614c` ; canonique : `macroscope-m009s-plan-detaille`.
+- `skills/macroscope-m049s-notes-de-reunion-4543e75d` -> `skills/variantes/macroscope-m049s-notes-de-reunion-4543e75d` ; canonique : `macroscope-m049s-notes-de-reunion`.
+- `skills/macroscope-p-aps-1-definir-les-criteres-devaluation-des-1a1d4755` -> `skills/variantes/macroscope-p-aps-1-definir-les-criteres-devaluation-des-1a1d4755` ; canonique : `macroscope-p-aps-1-definir-les-criteres-devaluation-des-produits`.
+- `skills/macroscope-p-oo-am-modelisation-de-larchitecture-propri-7eaa8426` -> `skills/variantes/macroscope-p-oo-am-modelisation-de-larchitecture-propri-7eaa8426` ; canonique : `macroscope-p-oo-am-modelisation-de-larchitecture-proprietaire-et`.
+- `skills/macroscope-p-oo-am-modelisation-de-larchitecture-propri-ab7783f5` -> `skills/variantes/macroscope-p-oo-am-modelisation-de-larchitecture-propri-ab7783f5` ; canonique : `macroscope-p-oo-am-modelisation-de-larchitecture-proprietaire-et`.
+- `skills/macroscope-p-rec-recouvrement-de-la-documentation-cle-d-6172fc37` -> `skills/variantes/macroscope-p-rec-recouvrement-de-la-documentation-cle-d-6172fc37` ; canonique : `macroscope-p-rec-recouvrement-de-la-documentation-cle-de-systeme`.
+- `skills/macroscope-p-rec-recouvrement-de-la-documentation-cle-d-bc194ebb` -> `skills/variantes/macroscope-p-rec-recouvrement-de-la-documentation-cle-d-bc194ebb` ; canonique : `macroscope-p-rec-recouvrement-de-la-documentation-cle-de-systeme`.
+- `skills/macroscope-p-uid-conception-de-linterface-utilisateur-b39e1930` -> `skills/variantes/macroscope-p-uid-conception-de-linterface-utilisateur-b39e1930` ; canonique : `macroscope-p-uid-conception-de-linterface-utilisateur`.
+- `skills/macroscope-p140s-exigences-proprietaire-4a253b57` -> `skills/variantes/macroscope-p140s-exigences-proprietaire-4a253b57` ; canonique : `macroscope-p140s-exigences-proprietaire`.
+- `skills/macroscope-p140s-livrable-p140s-50bdcc1e` -> `skills/variantes/macroscope-p140s-livrable-p140s-50bdcc1e` ; canonique : `macroscope-p140s-livrable-p140s`.
+- `skills/macroscope-p200a-cadre-darchitecture-b7184f1f` -> `skills/variantes/macroscope-p200a-cadre-darchitecture-b7184f1f` ; canonique : `macroscope-p200a-cadre-darchitecture`.
+- `skills/macroscope-p200a-cadre-darchitecture-cd608298` -> `skills/variantes/macroscope-p200a-cadre-darchitecture-cd608298` ; canonique : `macroscope-p200a-cadre-darchitecture`.
+- `skills/macroscope-p200a-cadre-darchitecture-f2e619de` -> `skills/variantes/macroscope-p200a-cadre-darchitecture-f2e619de` ; canonique : `macroscope-p200a-cadre-darchitecture`.
+- `skills/macroscope-p219s-architecture-logicielle-ef65719d` -> `skills/variantes/macroscope-p219s-architecture-logicielle-ef65719d` ; canonique : `macroscope-p219s-architecture-logicielle`.
+- `skills/macroscope-p270s-strategie-dimplantation-91894be4` -> `skills/variantes/macroscope-p270s-strategie-dimplantation-91894be4` ; canonique : `macroscope-p270s-strategie-dimplantation`.
+- `skills/macroscope-p28-utilisateur-c39b9d9a` -> `skills/variantes/macroscope-p28-utilisateur-c39b9d9a` ; canonique : `macroscope-p28-utilisateur`.
+- `skills/macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio-4d1bc7f6` -> `skills/variantes/macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio-4d1bc7f6` ; canonique : `macroscope-p298-groupe-darchitecture-du-portefeuille-dapplicatio`.
+- `skills/macroscope-p302-comite-de-coordination-du-projet-7375d1b2` -> `skills/variantes/macroscope-p302-comite-de-coordination-du-projet-7375d1b2` ; canonique : `macroscope-p302-comite-de-coordination-du-projet`.
+- `skills/macroscope-p304-mediateur-c6cdfa87` -> `skills/variantes/macroscope-p304-mediateur-c6cdfa87` ; canonique : `macroscope-p304-mediateur`.
+- `skills/macroscope-p305-memento-d48ef2bf` -> `skills/variantes/macroscope-p305-memento-d48ef2bf` ; canonique : `macroscope-p305-memento`.
+- `skills/macroscope-p314-plugin-f8c58cde` -> `skills/variantes/macroscope-p314-plugin-f8c58cde` ; canonique : `macroscope-p314-plugin`.
+- `skills/macroscope-p315-polymorphisme-8b87ced6` -> `skills/variantes/macroscope-p315-polymorphisme-8b87ced6` ; canonique : `macroscope-p315-polymorphisme`.
+- `skills/macroscope-p316-mise-en-commun-d1bf494f` -> `skills/variantes/macroscope-p316-mise-en-commun-d1bf494f` ; canonique : `macroscope-p316-mise-en-commun`.
+- `skills/macroscope-p317-protection-9b421a4d` -> `skills/variantes/macroscope-p317-protection-9b421a4d` ; canonique : `macroscope-p317-protection`.
+- `skills/macroscope-p318-equipe-de-maintenance-971395e4` -> `skills/variantes/macroscope-p318-equipe-de-maintenance-971395e4` ; canonique : `macroscope-p318-equipe-de-maintenance`.
+- `skills/macroscope-p319-chef-de-lequipe-de-maintenance-df965681` -> `skills/variantes/macroscope-p319-chef-de-lequipe-de-maintenance-df965681` ; canonique : `macroscope-p319-chef-de-lequipe-de-maintenance`.
+- `skills/macroscope-p320-fabrication-pure-c8aa5092` -> `skills/variantes/macroscope-p320-fabrication-pure-c8aa5092` ; canonique : `macroscope-p320-fabrication-pure`.
+- `skills/macroscope-p323-registre-ca2c4f1a` -> `skills/variantes/macroscope-p323-registre-ca2c4f1a` ; canonique : `macroscope-p323-registre`.
+- `skills/macroscope-p328-comite-de-direction-du-projet-b69c5375` -> `skills/variantes/macroscope-p328-comite-de-direction-du-projet-b69c5375` ; canonique : `macroscope-p328-comite-de-direction-du-projet`.
+- `skills/macroscope-p329-interface-separee-7a3a93c9` -> `skills/variantes/macroscope-p329-interface-separee-7a3a93c9` ; canonique : `macroscope-p329-interface-separee`.
+- `skills/macroscope-p331-equipe-de-definition-et-de-validation-93e75994` -> `skills/variantes/macroscope-p331-equipe-de-definition-et-de-validation-93e75994` ; canonique : `macroscope-p331-equipe-de-definition-et-de-validation`.
+- `skills/macroscope-p333-conseiller-en-architecture-de-transition-et-dimp-db067659` -> `skills/variantes/macroscope-p333-conseiller-en-architecture-de-transition-et-dimp-db067659` ; canonique : `macroscope-p333-conseiller-en-architecture-de-transition-et-dimp`.
+- `skills/macroscope-p335-equipe-de-transition-et-dimplantation-c63d52ff` -> `skills/variantes/macroscope-p335-equipe-de-transition-et-dimplantation-c63d52ff` ; canonique : `macroscope-p335-equipe-de-transition-et-dimplantation`.
+- `skills/macroscope-p338-strategie-8efa0189` -> `skills/variantes/macroscope-p338-strategie-8efa0189` ; canonique : `macroscope-p338-strategie`.
+- `skills/macroscope-p340-module-de-table-db7ba76a` -> `skills/variantes/macroscope-p340-module-de-table-db7ba76a` ; canonique : `macroscope-p340-module-de-table`.
+- `skills/macroscope-p340s-strategie-de-conversion-f45be8a9` -> `skills/variantes/macroscope-p340s-strategie-de-conversion-f45be8a9` ; canonique : `macroscope-p340s-strategie-de-conversion`.
+- `skills/macroscope-p353-analyste-fonctionnel-fe664c4e` -> `skills/variantes/macroscope-p353-analyste-fonctionnel-fe664c4e` ; canonique : `macroscope-p353-analyste-fonctionnel`.
+- `skills/macroscope-p405s-strategie-de-realisation-et-dessai-9cce5ee1` -> `skills/variantes/macroscope-p405s-strategie-de-realisation-et-dessai-9cce5ee1` ; canonique : `macroscope-p405s-strategie-de-realisation-et-dessai`.
+- `skills/macroscope-p410s-groupes-dessai-4d9a91d8` -> `skills/variantes/macroscope-p410s-groupes-dessai-4d9a91d8` ; canonique : `macroscope-p410s-groupes-dessai`.
+- `skills/macroscope-p410s-groupes-dessai-510e6566` -> `skills/variantes/macroscope-p410s-groupes-dessai-510e6566` ; canonique : `macroscope-p410s-groupes-dessai`.
+- `skills/macroscope-p450s-plan-dimplantation-857db91d` -> `skills/variantes/macroscope-p450s-plan-dimplantation-857db91d` ; canonique : `macroscope-p450s-plan-dimplantation`.
+- `skills/macroscope-p490s-specifications-de-lunite-de-tache-c4866acb` -> `skills/variantes/macroscope-p490s-specifications-de-lunite-de-tache-c4866acb` ; canonique : `macroscope-p490s-specifications-de-lunite-de-tache`.
+- `skills/macroscope-p490s-specifications-de-lunite-de-tache-f308c8c9` -> `skills/variantes/macroscope-p490s-specifications-de-lunite-de-tache-f308c8c9` ; canonique : `macroscope-p490s-specifications-de-lunite-de-tache`.
+- `skills/macroscope-p555s-specifications-de-composant-logiciel-12bbb74f` -> `skills/variantes/macroscope-p555s-specifications-de-composant-logiciel-12bbb74f` ; canonique : `macroscope-p555s-specifications-de-composant-logiciel`.
+- `skills/macroscope-p600a-composants-logiciels-b462924a` -> `skills/variantes/macroscope-p600a-composants-logiciels-b462924a` ; canonique : `macroscope-p600a-composants-logiciels`.
+- `skills/macroscope-p700s-guide-dutilisation-ab4271f4` -> `skills/variantes/macroscope-p700s-guide-dutilisation-ab4271f4` ; canonique : `macroscope-p700s-guide-dutilisation`.
+- `skills/macroscope-p750a-cas-dessai-et-resultats-7efd56dd` -> `skills/variantes/macroscope-p750a-cas-dessai-et-resultats-7efd56dd` ; canonique : `macroscope-p750a-cas-dessai-et-resultats`.
+- `skills/macroscope-p805s-compte-rendu-dimplantation-efeb801f` -> `skills/variantes/macroscope-p805s-compte-rendu-dimplantation-efeb801f` ; canonique : `macroscope-p805s-compte-rendu-dimplantation`.
+- `skills/macroscope-p891s-demande-de-changement-17f3fcc8` -> `skills/variantes/macroscope-p891s-demande-de-changement-17f3fcc8` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p891s-demande-de-changement-25f1957a` -> `skills/variantes/macroscope-p891s-demande-de-changement-25f1957a` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p891s-demande-de-changement-36db1eaf` -> `skills/variantes/macroscope-p891s-demande-de-changement-36db1eaf` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p891s-demande-de-changement-44ef5e66` -> `skills/variantes/macroscope-p891s-demande-de-changement-44ef5e66` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p891s-demande-de-changement-58f23081` -> `skills/variantes/macroscope-p891s-demande-de-changement-58f23081` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p891s-demande-de-changement-5bcb9c11` -> `skills/variantes/macroscope-p891s-demande-de-changement-5bcb9c11` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p891s-demande-de-changement-6633870f` -> `skills/variantes/macroscope-p891s-demande-de-changement-6633870f` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p891s-demande-de-changement-840e1d36` -> `skills/variantes/macroscope-p891s-demande-de-changement-840e1d36` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p891s-demande-de-changement-a3f56a21` -> `skills/variantes/macroscope-p891s-demande-de-changement-a3f56a21` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p891s-demande-de-changement-c5a1ce34` -> `skills/variantes/macroscope-p891s-demande-de-changement-c5a1ce34` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p891s-demande-de-changement-d9ed3c62` -> `skills/variantes/macroscope-p891s-demande-de-changement-d9ed3c62` ; canonique : `macroscope-p891s-demande-de-changement`.
+- `skills/macroscope-p950s-base-de-donnees-de-la-gestion-de-confi-b2a466c7` -> `skills/variantes/macroscope-p950s-base-de-donnees-de-la-gestion-de-confi-b2a466c7` ; canonique : `macroscope-p950s-base-de-donnees-de-la-gestion-de-configuration`.
+- `skills/macroscope-p951s-plan-de-gestion-de-configuration-52ab1869` -> `skills/variantes/macroscope-p951s-plan-de-gestion-de-configuration-52ab1869` ; canonique : `macroscope-p951s-plan-de-gestion-de-configuration`.
+- `skills/macroscope-p951s-plan-de-gestion-de-configuration-5eaaca0c` -> `skills/variantes/macroscope-p951s-plan-de-gestion-de-configuration-5eaaca0c` ; canonique : `macroscope-p951s-plan-de-gestion-de-configuration`.
+- `skills/macroscope-p951s-plan-de-gestion-de-configuration-76cbc2af` -> `skills/variantes/macroscope-p951s-plan-de-gestion-de-configuration-76cbc2af` ; canonique : `macroscope-p951s-plan-de-gestion-de-configuration`.
+- `skills/macroscope-p951s-plan-de-gestion-de-configuration-9db9981c` -> `skills/variantes/macroscope-p951s-plan-de-gestion-de-configuration-9db9981c` ; canonique : `macroscope-p951s-plan-de-gestion-de-configuration`.
+- `skills/macroscope-p951s-plan-de-gestion-de-configuration-aefb55c1` -> `skills/variantes/macroscope-p951s-plan-de-gestion-de-configuration-aefb55c1` ; canonique : `macroscope-p951s-plan-de-gestion-de-configuration`.
+- `skills/macroscope-p951s-plan-de-gestion-de-configuration-af326a90` -> `skills/variantes/macroscope-p951s-plan-de-gestion-de-configuration-af326a90` ; canonique : `macroscope-p951s-plan-de-gestion-de-configuration`.
+- `skills/macroscope-p951s-plan-de-gestion-de-configuration-d7ac331b` -> `skills/variantes/macroscope-p951s-plan-de-gestion-de-configuration-d7ac331b` ; canonique : `macroscope-p951s-plan-de-gestion-de-configuration`.
+## Correction des libellés génériques
+
+- Renommage appliqué aux skills dont le titre provenait d’un libellé générique de page.
+- Promotion des variantes renommées qui représentent maintenant des livrables distincts : 21.
+- Suppression des lignes de variantes obsolètes : 21.

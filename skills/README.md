@@ -15,6 +15,26 @@ Ce dossier contient la bibliotheque de skills du depot.
 
 - `rediger-livrable-macroscope`
 
+## Skills transversales Macroscope
+
+Voir aussi [INDEX-TRANSVERSALES.md](INDEX-TRANSVERSALES.md).
+
+- `macroscope-selectionner-livrable`
+- `macroscope-cadrer-demande-livrable`
+- `macroscope-reviser-conformite-livrable`
+- `macroscope-aligner-togaf`
+- `macroscope-generer-gabarit-livrable`
+- `macroscope-extraire-exigences`
+- `macroscope-produire-matrice-tracabilite`
+- `macroscope-controler-doublons-livrables`
+- `macroscope-synthetiser-reference-livrable`
+- `macroscope-consolider-variante-livrable`
+- `macroscope-produire-vue-architecture-service`
+- `macroscope-reviser-vocabulaire`
+- `macroscope-generer-diagrammes`
+- `macroscope-preparer-revue-livrable`
+- `macroscope-cartographier-livrables`
+
 ## Skills d atelier conservees du gabarit
 
 - `skill-definir-perimetre`

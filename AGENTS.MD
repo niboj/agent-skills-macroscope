@@ -1,85 +1,143 @@
 # AGENTS
 
-## Portee
+## Portée
 
-Ces instructions s appliquent a tout le depot.
+Ces instructions s’appliquent à tout le dépôt.
 
-## Objectif du depot
+## Mission du dépôt
 
-- Maintenir une bibliotheque de skills Markdown reutilisables pour la redaction de livrables selon la methodologie Macroscope.
-- Appuyer les skills sur les references locales du depot, en particulier le corpus `macroscope/livrables/`.
-- Conserver une structure simple par skill, avec un dossier dedie sous `skills/`.
-- Produire des instructions claires, verifiables et portables vers Codex ou d autres runtimes compatibles Agent Skills.
+Ce dépôt maintient une bibliothèque de skills IA pour produire, compléter, réviser et contrôler des livrables selon la méthode Macroscope, dans une démarche d’architecture de service alignée sur TOGAF.
 
-## Regles de travail
+TOGAF a préséance sur Macroscope. Les livrables Macroscope doivent être interprétés comme des artefacts, vues spécialisées, gabarits ou annexes détaillées qui alimentent les livrables TOGAF, notamment le Document de définition d’architecture (Architecture Definition Document), la Spécification des exigences d’architecture (Architecture Requirements Specification), les vues d’architecture et les plans de migration ou d’implantation.
 
-- Avant de modifier une skill, lire au minimum son `SKILL.md` et les references directement liees a la demande.
-- Pour une skill Macroscope, consulter d abord les references locales pertinentes dans `macroscope/livrables/` ou dans le sous-dossier `references/` de la skill.
-- Preserver les conventions du depot : nommage stable, structure Markdown simple, responsabilite unique par skill.
-- Limiter les changements au perimetre utile. Ne pas refactorer plusieurs skills sans besoin explicite.
-- Distinguer les informations tirees des references, les hypotheses et les points a confirmer.
-- Ne pas introduire de format proprietaire ou de generation complexe quand un fichier Markdown suffit.
-- Si une regle locale est ajoutee plus bas dans l arborescence, elle prime sur ce fichier pour son sous-dossier.
+## Règles générales
 
-## Serie d agents pour les skills Macroscope
+- Répondre en français, avec un style clair, formel et opérationnel.
+- Produire un livrable exploitable, pas une explication générique de la méthode.
+- Utiliser les références locales avant d’inventer une structure ou une terminologie.
+- Distinguer explicitement les faits tirés des sources, les hypothèses et les points à confirmer.
+- Ne jamais présenter Macroscope comme ayant préséance sur TOGAF.
+- Ne pas utiliser le mot « Architecte » pour désigner un rôle professionnel. Utiliser « Conseiller en architecture ».
+- Ne pas utiliser le terme « structurant ».
+- Garder les changements de fichiers limités au périmètre demandé.
+- Ne pas modifier les sources brutes dans `macroscope/livrables/` sauf demande explicite.
 
-Utiliser ces roles comme chaine de travail quand la demande porte sur la creation, la refonte ou l evaluation d une skill de livrable Macroscope.
+## Répertoires de référence
 
-### 1. Agent Analyse Source
+- `skills/` : skills actives, une skill canonique par livrable ou capacité.
+- `skills/INDEX.md` : index des skills Macroscope actives.
+- `skills/variantes/` : variantes de contenu non actives par défaut, conservées pour consolidation.
+- `skills/variantes/INDEX.md` : correspondance entre variantes et skills canoniques.
+- `macroscope/livrables/` : corpus source Macroscope converti en Markdown.
+- `references/` : conventions transversales de rédaction, nommage et compatibilité Agent Skills.
+- `gabarits/` : modèles de départ pour créer ou réviser des skills.
+- `utilitaires/` : scripts de validation et d’installation.
 
-- Mission: lire les pages Macroscope, documents sources et artefacts du depot.
-- Declenchement: quand une skill ou un livrable doit etre base sur une notion, une phase, une technique, un modele ou un gabarit Macroscope.
-- Livrable: une synthese des concepts stables, termes obligatoires, risques d interpretation et references a reutiliser.
-- Regles: extraire uniquement ce qui influence le livrable ou la skill; signaler les zones ambigues; citer les chemins locaux consultes.
+## Sélection d’une skill Macroscope
 
-### 2. Agent Cadrage Livrable
+Quand une demande vise un livrable Macroscope :
 
-- Mission: definir le type de livrable, son objectif, son audience, ses entrees et ses criteres de completude.
-- Declenchement: quand le besoin utilisateur est large ou que le type de livrable Macroscope n est pas encore clair.
-- Livrable: nom du livrable, contexte, contenu attendu, non-objectifs et references probables.
-- Regles: eviter les livrables fourre-tout; borner le niveau de detail; expliciter les hypotheses.
+1. Identifier le code du livrable si l’utilisateur le donne, par exemple `P140S`, `P580S` ou `P700U`.
+2. Sinon, identifier le livrable par mots-clés, domaine, phase ou type de sortie.
+3. Consulter `skills/INDEX.md` pour choisir la skill canonique.
+4. Lire le `SKILL.md` de la skill sélectionnée.
+5. Lire `references/LIVRABLE.md` dans cette skill.
+6. Si une variante semble pertinente, consulter `skills/variantes/INDEX.md`, puis la référence de la variante.
+7. Ne pas activer plusieurs livrables si un livrable canonique suffit. Mentionner les livrables liés seulement s’ils changent la sortie.
 
-### 3. Agent Redaction Skill
+## Application de Macroscope
 
-- Mission: transformer le cadrage en `SKILL.md` actionnable.
-- Declenchement: quand le workflow de production ou de revision du livrable doit devenir reutilisable.
-- Livrable: description orientee declenchement, procedure, controles qualite et sortie attendue.
-- Regles: preferer des etapes observables; garder les details longs dans `references/`.
+Pour appliquer Macroscope à une demande :
 
-### 4. Agent Scripts et Automatisation
+1. Cadrer la demande : livrable, objectif, portée, audience, niveau de détail et état attendu.
+2. Identifier les intrants disponibles : besoin, exigences, processus, données, règles, contraintes, décisions, risques, technologies, exploitation ou formation.
+3. Relever les informations manquantes qui empêchent de produire une version fiable.
+4. Produire une structure Markdown adaptée au livrable.
+5. Rédiger les sections utiles en respectant la référence du livrable.
+6. Relier les éléments aux concepts TOGAF pertinents.
+7. Documenter les hypothèses et les points à confirmer.
+8. Vérifier la cohérence, la traçabilité et la complétude.
 
-- Mission: decider si un script doit etre ajoute pour rechercher, verifier ou transformer des references.
-- Declenchement: quand une verification mecanique devient repetee ou fragile.
-- Livrable: decision "sans script" ou "avec script", prerequis, chemin relatif et mode d execution.
-- Regles: n ajouter un script que s il apporte un gain reel de fiabilite ou de repetabilite; documenter les prerequis; utiliser des chemins relatifs depuis la racine de la skill.
+## Positionnement TOGAF
 
-### 5. Agent Evaluation
+Chaque livrable Macroscope doit être positionné dans TOGAF.
 
-- Mission: evaluer le declenchement et la qualite des sorties d une skill.
-- Declenchement: quand une skill nouvelle ou refondue doit etre verifiee.
-- Livrable: cas de test, assertions, constats et recommandations de correction.
-- Regles: tester des demandes explicites, des demandes ambigues et des demandes hors perimetre; exiger des preuves concretes pour chaque verdict.
+Utiliser les correspondances suivantes comme point de départ :
 
-## Regles specifiques aux livrables Macroscope
+- Opportunité, objectifs, portée, exigences : Vision d’architecture (Architecture Vision), Demande de travail d’architecture (Request for Architecture Work), Énoncé de travail d’architecture (Statement of Architecture Work), Spécification des exigences d’architecture (Architecture Requirements Specification).
+- Évaluation du système actuel : architecture de référence, architecture actuelle, analyse des écarts.
+- Structure du système d’information : Architecture métier (Business Architecture) et Architecture applicative (Application Architecture).
+- Dynamique du système d’information : Architecture métier, processus, services, événements.
+- Sujet, facette, composante du noyau : Architecture des données (Data Architecture).
+- Processus de travail, fonction, unité de tâche : Architecture métier et vue des usages.
+- Architecture logicielle, interface niveau réalisateur : Architecture applicative.
+- Infrastructure technologique, répartition : Architecture technologique (Technology Architecture).
+- Sécurité du système : vue sécurité, exigences de sécurité, contrôles, accès, journalisation, séparation des tâches.
+- Règles d’affaires : exigences, règles métier, critères de conformité.
+- Cadre de conception et spécifications détaillées : conception détaillée référencée par l’architecture.
+- Plan d’essai et environnement d’essai : gouvernance de mise en œuvre et validation.
+- Plan d’implantation : plan d’implantation et de migration.
+- Guide d’utilisation, guide d’opération, matériel de formation : transition, exploitation, adoption et transfert.
 
-- Identifier le type de livrable avant de rediger.
-- Rechercher les termes et conventions dans les references locales avant d inventer une structure.
-- Citer les chemins locaux consultes quand ils influencent la sortie.
-- Signaler explicitement les informations manquantes ou les arbitrages proposes.
-- Produire une sortie exploitable, pas une explication generique de la methodologie.
-- Verifier la coherence entre objectifs, activites, resultats, roles, evenements, biens livrables et controles de qualite lorsqu ils sont presents.
+## Contrôles de qualité d’un livrable
 
-## Structure attendue d une skill
+Avant de remettre un livrable ou une révision :
 
-- Un dossier sous `skills/` avec un nom explicite et stable.
-- Un fichier `SKILL.md` qui decrit le but, le contexte d usage, la procedure et la sortie attendue.
-- Des fichiers de reference dans `references/` seulement s ils sont necessaires a l execution.
-- Des evaluations dans `evals/` quand la skill porte un workflow reutilisable.
+- Le code et le nom du livrable sont clairs.
+- La portée est explicite.
+- Les objectifs, exigences, décisions et contraintes sont traçables.
+- Les termes Macroscope et TOGAF sont utilisés de manière cohérente.
+- Les sections non applicables sont omises ou indiquées comme non applicables.
+- Les tableaux, matrices ou diagrammes recommandés sont produits ou signalés comme manquants.
+- Les décisions sont justifiées.
+- Les exigences sont vérifiables.
+- Les liens avec TOGAF sont explicites.
+- Les informations de conception détaillée ne remplacent pas l’architecture.
+- Les hypothèses et les points à confirmer sont visibles.
 
-## Validation minimale
+## Création ou révision de skills
 
-- Verifier que les chemins cites existent.
-- Verifier que les liens entre `SKILL.md`, `references/` et `macroscope/livrables/` sont coherents.
-- Relire le diff pour eviter les contradictions entre skills voisines.
-- Verifier que la description d une skill indique clairement quand l utiliser.
-- Verifier que la sortie attendue est observable et evaluable.
+Quand il faut créer ou modifier une skill :
+
+1. Lire les références existantes du livrable.
+2. Vérifier si une skill canonique existe déjà dans `skills/INDEX.md`.
+3. Ne pas créer de doublon actif pour le même code et le même nom de livrable.
+4. Placer les variantes non canoniques dans `skills/variantes/`.
+5. Garder `SKILL.md` concis et opérationnel.
+6. Placer le détail long dans `references/LIVRABLE.md`.
+7. Utiliser un nom conforme Agent Skills : lettres minuscules, chiffres et traits d’union seulement, maximum 64 caractères.
+8. Le champ `name` doit être identique au nom du répertoire.
+9. La `description` doit indiquer quand utiliser la skill.
+
+## Validation des skills
+
+Après modification de skills, exécuter :
+
+```bash
+python3 utilitaires/verifier_toutes_skills.py
+```
+
+Pour valider les variantes :
+
+```bash
+python3 utilitaires/verifier_toutes_skills.py --skills-root skills/variantes
+```
+
+Vérifier aussi :
+
+- les chemins relatifs vers `references/LIVRABLE.md`;
+- l’absence de doublon actif dans `skills/INDEX.md`;
+- la cohérence entre `skills/INDEX.md` et les répertoires sous `skills/`;
+- la cohérence entre `skills/variantes/INDEX.md` et les répertoires sous `skills/variantes/`.
+
+## Sortie attendue d’un agent
+
+Quand l’agent applique une skill Macroscope, la réponse doit généralement contenir :
+
+1. Le livrable ou la section demandée.
+2. Les hypothèses retenues.
+3. Les points à confirmer.
+4. Les références internes consultées, lorsque leur contenu influence la sortie.
+5. Les liens TOGAF pertinents.
+
+Éviter les longues explications méthodologiques si l’utilisateur demande directement un livrable.

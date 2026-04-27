@@ -1,0 +1,104 @@
+# Référence du livrable P12743 Diagramme structurel
+
+## Source analysée
+
+- Fichier source : `../../../macroscope/livrables/7474168ccb1b.md`
+- Méthode source : Macroscope
+- Extraction du titre : code technique extrait de URL
+
+## Synthèse du livrable
+
+Les diagrammes structurels illustrent les aspects statiques d'un modèle, c'est-à-dire comment les éléments sont structurés et assemblés, et non comment ils se comportent lorsque le système est exécuté. Les éléments représentent des entités du monde réel qui font partie du système à modéliser, et les relations qu'ils ont entre eux. Les éléments peuvent être spécifiés à plusieurs niveaux d'abstraction, allant des entités d'analyse jusqu'aux entités de conception et d'implantation. Il y a cinq types de diagrammes structurels : le diagramme de classe, le diagramme d'objet, le diagramme de paquetage, le diagramme de composant et le diagramme de déploiement. Les diagrammes de composant et de déploiement sont aussi connus sous le nom de diagramme d'implantation.
+
+## Raison d’être
+
+Aucune raison d’être explicite n’a été extraite. Déduire l’intention du livrable à partir de sa description, de son contenu et des livrables liés.
+
+## Occurrence
+
+Aucune occurrence explicite n’a été extraite du fichier source.
+
+## Structure détaillée du livrable
+
+1. Synthese
+2. Portee
+3. Contenu du livrable
+4. Decisions et points ouverts
+5. Tracabilite TOGAF
+
+## Champs ou sections attendus
+
+- Aucune information explicite extraite du fichier source.
+
+## Objets documentés
+
+- Les diagrammes structurels illustrent les aspects statiques d'un modèle, c'est-à-dire comment les éléments sont structurés et assemblés, et non comment ils se comportent lorsque le système est exécuté.
+- Les éléments représentent des entités du monde réel qui font partie du système à modéliser, et les relations qu'ils ont entre eux.
+- Il y a cinq types de diagrammes structurels : le diagramme de classe, le diagramme d'objet, le diagramme de paquetage, le diagramme de composant et le diagramme de déploiement.
+- Les diagrammes de composant et de déploiement sont aussi connus sous le nom de diagramme d'implantation.
+- * Diagramme de composant
+
+## Tableaux, modèles ou diagrammes recommandés
+
+- Les diagrammes structurels illustrent les aspects statiques d'un modèle, c'est-à-dire comment les éléments sont structurés et assemblés, et non comment ils se comportent lorsque le système est exécuté.
+- Il y a cinq types de diagrammes structurels : le diagramme de classe, le diagramme d'objet, le diagramme de paquetage, le diagramme de composant et le diagramme de déploiement.
+- Les diagrammes de composant et de déploiement sont aussi connus sous le nom de diagramme d'implantation.
+- * Diagramme de classe
+- * Diagramme de paquetage
+- * Diagramme d'objet
+- * Diagramme de composant
+- * Diagramme de déploiement
+
+## Livrables et références liés
+
+- Aucune information explicite extraite du fichier source.
+
+## Correspondances TOGAF
+
+- Préséance : TOGAF prime sur Macroscope.
+- Phase ADM principale : Phase F - Planification de migration (Migration Planning).
+- Livrable TOGAF cible : Plan d’implantation et de migration.
+- Domaine d’architecture principal : implantation.
+- Artefacts associés : Plan de migration, Lot de transition, Risque de transition.
+
+## Règles particulières de rédaction
+
+- Présenter P12743 Diagramme structurel comme un artefact, une vue spécialisée, un gabarit ou une annexe d’architecture de service alignée sur TOGAF.
+- Ne jamais faire primer Macroscope sur TOGAF.
+- Documenter les hypothèses et les points à confirmer lorsque la source utilisateur est incomplète.
+- Relier les éléments du livrable aux exigences, décisions, vues, composants et risques pertinents.
+- Utiliser le terme conseiller en architecture pour désigner la contribution d’architecture.
+
+## Exemples utiles ou indications extraites
+
+- Aucune information explicite extraite du fichier source.
+
+## Points de vigilance
+
+- Vérifier que le livrable répond au besoin utilisateur plutôt qu’à une reproduction mécanique du gabarit.
+- Éviter les doublons avec les autres livrables Macroscope liés.
+- Ne pas transformer une annexe détaillée en décision d’architecture principale.
+- Signaler les sections non applicables au lieu de les remplir artificiellement.
+- Conserver la traçabilité entre sources, exigences, décisions et artefacts TOGAF.
+
+## Extraits de contexte Macroscope
+
+### Description
+
+Les diagrammes structurels illustrent les aspects statiques d'un modèle, c'est-à-dire comment les éléments sont structurés et assemblés, et non comment ils se comportent lorsque le système est exécuté. Les éléments représentent des entités du monde réel qui font partie du système à modéliser, et les relations qu'ils ont entre eux. Les éléments peuvent être spécifiés à plusieurs niveaux d'abstraction, allant des entités d'analyse jusqu'aux entités de conception et d'implantation. Il y a cinq types de diagrammes structurels : le diagramme de classe, le diagramme d'objet, le diagramme de paquetage, le diagramme de composant et le diagramme de déploiement. Les diagrammes de composant et de déploiement sont aussi connus sous le nom de diagramme d'implantation.
+
+### Intrants
+
+Non disponible.
+
+### Extrants
+
+Non disponible.
+
+### Procédure ou indications de production
+
+Non disponible.
+
+### Rôles mentionnés dans la source
+
+Non disponible.
