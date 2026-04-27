@@ -1,0 +1,10 @@
+# http://intradoc-cadrenormatif.itp.extra/DMRPFr/html/Fr_P_289_99_OPD.html
+
+|   
+#### Définition
+S'assure que chaque objet n'est chargé qu'une seule fois en les conservant dans un tableau. Utilise ce tableau pour la recherche des objets chargés.
+#### Catégories
+Relationnel-objet; Comportement
+#### Référence
+[[PEAA03] Patterns of Enterprise Application Architecture](javascript:openPopUp\('/DMRPFr/Html/Fr_P_383_99_RPP.html'\);) Voir aussi le catalogue des modèles de conception de l'auteur sur le web (anglais) : [P of EAA Catalog](http://martinfowler.com/eaaCatalog/identityMap.html "Avis de non-responsabilité : Ce lien hypertextuel mène à une adresse externe. Bien que cette adresse soit valide au moment de la publication, nous ne pouvons garantir qu'elle n'a pas changé depuis.")  |  
+| --- |

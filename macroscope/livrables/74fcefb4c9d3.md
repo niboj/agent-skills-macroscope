@@ -1,0 +1,19 @@
+# http://intradoc-cadrenormatif.itp.extra/DMRPFr/Html/Fr_P_1169_7_577_DEL.html
+
+|   
+####  Raison d'être
+  * Guider la conception du système.
+  * Établir les critères de qualité.
+
+
+####  Contenu
+**1. Principes généraux** **2. Principes administratifs et d'organisation du travail** **3. Principes de l'interface utilisateur** **4. Principes de fonctionnement du traitement automatisé** **5. Principes d'information** **6. Principes de contrôle du système en exploitation** **7. Critères de qualité**
+####  Livrables détaillés pertinents
+Pour développer davantage un sujet ou pour subdiviser le livrable et en déléguer les responsabilités, on peut utiliser les livrables détaillés suivants :
+  * [P240U Principes, niveau utilisateur](http://intradoc-cadrenormatif.itp.extra/DMRPFr/html/Fr_P_1170_7_577_DEL.html)
+  * [P350U Critères de qualité généraux, niveau utilisateur](http://intradoc-cadrenormatif.itp.extra/DMRPFr/html/Fr_P_1231_7_577_DEL.html)
+
+
+#### Relations avec les autres livrables
+![](http://intradoc-cadrenormatif.itp.extra/DMRPFr/Images/Fr_P_Del_Dep_P240S.jpg)  |  
+| --- |
