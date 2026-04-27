@@ -1,0 +1,33 @@
+{
+  "version": "1",
+  "skill": "rediger-livrable-macroscope",
+  "cases": [
+    {
+      "name": "rediger-evenement-processus",
+      "prompt": "Redige un court livrable Macroscope pour decrire l'evenement Commande approuvee dans un modele dynamique de processus.",
+      "assertions": [
+        "La sortie identifie le type de livrable ou d'objet Macroscope.",
+        "La sortie decrit l'evenement comme un resultat observable.",
+        "Les hypotheses ou informations manquantes sont indiquees."
+      ]
+    },
+    {
+      "name": "reviser-brouillon-livrable",
+      "prompt": "Voici un brouillon de livrable Macroscope. Revise sa structure et signale ce qui manque pour qu'il soit exploitable.",
+      "assertions": [
+        "La sortie se concentre sur la revision du livrable.",
+        "La sortie distingue les corrections, les hypotheses et les points a confirmer.",
+        "La sortie ne remplace pas la revision par une explication generale de Macroscope."
+      ]
+    },
+    {
+      "name": "demande-ambigue-livrable",
+      "prompt": "Prepare le livrable Macroscope pour notre atelier de processus, mais je n'ai pas encore precise le type exact de livrable.",
+      "assertions": [
+        "La sortie cadre le type de livrable avant de rediger.",
+        "La sortie demande ou liste les informations manquantes essentielles.",
+        "La sortie propose une structure provisoire sans inventer de faits metier."
+      ]
+    }
+  ]
+}

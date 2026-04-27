@@ -1,6 +1,6 @@
 # Guide de redaction de skills
 
-Ce document adapte les principes de redaction de skills a un depot generique.
+Ce document adapte les principes de redaction de skills a un depot specialise dans les livrables Macroscope.
 
 ## Principes directeurs
 
@@ -65,3 +65,5 @@ Pour un skill nouveau ou refondu :
 - Definir une convention de nommage stable pour les dossiers de skills.
 - Garder les references dans `references/` au plus pres du skill qui les utilise.
 - Remonter dans le `SKILL.md` seulement les contraintes qui changent reellement l execution.
+- Pour les skills Macroscope, citer les chemins locaux consultes quand ils influencent la procedure ou la sortie attendue.
+- Distinguer les faits du corpus, les hypotheses de redaction et les points a confirmer avec le demandeur.
