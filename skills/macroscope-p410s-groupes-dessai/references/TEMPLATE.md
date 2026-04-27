@@ -1,0 +1,105 @@
+# P410S - Groupes d'essai
+
+## 1. Identification du livrable
+
+| Élément | Valeur |
+| --- | --- |
+| Code | P410S |
+| Nom | Groupes d'essai |
+| Service ou système d'information | À compléter |
+| Version | À compléter |
+| Date | À compléter |
+| Responsable de la production | À compléter |
+| Conseiller en architecture | À compléter |
+
+## 2. Contexte et portée
+
+### Contexte
+
+À compléter.
+
+### Portée incluse
+
+- À compléter.
+
+### Hors portée
+
+- À compléter.
+
+## 3. Objectifs du livrable
+
+- À compléter.
+
+## 4. Intrants utilisés
+
+| Intrant | Source | Statut | Commentaire |
+| --- | --- | --- | --- |
+| À compléter | À compléter | À confirmer | À compléter |
+
+## 5. Contenu du livrable
+
+À compléter selon la référence `references/LIVRABLE.md`.
+
+## 6. Tableaux, modèles ou diagrammes à produire
+
+<!-- - #### Modèle du processus -->
+
+| Élément | Objectif | Statut | Référence |
+| --- | --- | --- | --- |
+| À compléter | À compléter | À produire | À compléter |
+
+## 7. Exigences, décisions et contraintes
+
+| Type | Identifiant | Description | Source | Traçabilité TOGAF |
+| --- | --- | --- | --- | --- |
+| Exigence | À compléter | À compléter | À compléter | À compléter |
+| Décision | À compléter | À compléter | À compléter | À compléter |
+| Contrainte | À compléter | À compléter | À compléter | À compléter |
+
+## 8. Correspondance TOGAF
+
+<!-- - Phase ADM principale : Phase A - Vision d’architecture (Architecture Vision). -->
+<!-- - Livrable TOGAF cible : Plan de validation et critères d’acceptation. -->
+<!-- - Domaine d’architecture principal : essais. -->
+<!-- - Artefacts associés : Critères d’acceptation, Cas de test, Registre des anomalies, Demande de travail d’architecture (Request for Architecture Work). -->
+
+| Élément du livrable | Artefact ou concept TOGAF lié | Justification |
+| --- | --- | --- |
+| À compléter | À compléter | À compléter |
+
+## 9. Livrables et références liés
+
+<!-- - P410S - Groupes d'essai -->
+<!-- - P750S - Cas d'essai -->
+<!-- - P770S - Résultats d'essai -->
+<!-- - P891S - Demande de changement -->
+<!-- - P901S - Registre des demandes de changement -->
+<!-- - P902S - Compte rendu de l'information -->
+<!-- - P891S Demande de changement -->
+<!-- - P901S Registre des demandes de changement -->
+
+| Livrable ou référence | Relation | Utilisation prévue |
+| --- | --- | --- |
+| À compléter | À compléter | À compléter |
+
+## 10. Hypothèses
+
+| Hypothèse | Impact | Validation attendue |
+| --- | --- | --- |
+| À compléter | À compléter | À compléter |
+
+## 11. Points à confirmer
+
+| Point | Responsable | Échéance | Impact si non confirmé |
+| --- | --- | --- | --- |
+| À compléter | À compléter | À compléter | À compléter |
+
+## 12. Contrôles de qualité
+
+- [ ] Le code et le nom du livrable sont exacts.
+- [ ] La portée est explicite.
+- [ ] Les faits, hypothèses et points à confirmer sont distingués.
+- [ ] Les exigences, décisions et contraintes sont traçables.
+- [ ] Les liens avec TOGAF sont explicites.
+- [ ] Les sections non applicables sont indiquées comme telles.
+- [ ] Les tableaux, matrices ou diagrammes attendus sont produits ou signalés.

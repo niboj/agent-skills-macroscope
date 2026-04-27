@@ -51,11 +51,12 @@ TOGAF a préséance. Utiliser ce livrable comme contribution à Plan d’implant
 1. Analyser la demande et confirmer le livrable P12743 Diagramme structurel.
 2. Identifier le périmètre, l’audience, les hypothèses et les informations manquantes.
 3. Consulter [la référence du livrable](references/LIVRABLE.md) pour sélectionner les sections pertinentes.
-4. Produire le contenu demandé en distinguant faits sources, hypothèses et points à confirmer.
-5. Relier les éléments aux concepts TOGAF pertinents.
-6. Formuler les constats, orientations, objectifs et résultats attendus lorsque pertinent.
-7. Produire les tableaux, matrices, modèles ou diagrammes requis par le livrable.
-8. Vérifier la cohérence, la traçabilité et la conformité avant de répondre.
+4. Utiliser [le template du livrable](references/TEMPLATE.md) lorsque l'utilisateur demande un gabarit, un canevas ou une version vierge du livrable.
+5. Produire le contenu demandé en distinguant faits sources, hypothèses et points à confirmer.
+6. Relier les éléments aux concepts TOGAF pertinents.
+7. Formuler les constats, orientations, objectifs et résultats attendus lorsque pertinent.
+8. Produire les tableaux, matrices, modèles ou diagrammes requis par le livrable.
+9. Vérifier la cohérence, la traçabilité et la conformité avant de répondre.
 
 ## Structure de sortie recommandée
 
@@ -88,3 +89,5 @@ Adapter cette structure avec les sections détaillées de [la référence du liv
 ## Références internes
 
 Consulter [la référence du livrable](references/LIVRABLE.md) pour la structure détaillée et les consignes spécifiques.
+
+Utiliser [le template du livrable](references/TEMPLATE.md) pour générer un canevas prêt à remplir.
