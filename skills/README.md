@@ -1,14 +1,14 @@
 # Skills
 
-Ce dossier contient la bibliotheque de skills du depot.
+Ce dossier contient la bibliothèque de skills du dépôt.
 
-## Regles communes
+## Règles communes
 
 - Un dossier par skill
 - Un `SKILL.md` minimalement
-- Des noms de dossiers alignes sur le champ `name`
-- Des descriptions ecrites pour le declenchement
-- Des references chargeables a la demande
+- Des noms de dossiers alignés sur le champ `name`
+- Des descriptions écrites pour le déclenchement
+- Des références chargeables à la demande
 - Un noyau portable prioritaire pour `.agents/skills/`, `.claude/skills/` et `.opencode/skills/`
 
 ## Skill Macroscope initiale
@@ -35,7 +35,7 @@ Voir aussi [INDEX-TRANSVERSALES.md](INDEX-TRANSVERSALES.md).
 - `macroscope-preparer-revue-livrable`
 - `macroscope-cartographier-livrables`
 
-## Skills d atelier conservees du gabarit
+## Skills d'atelier conservées du gabarit
 
 - `skill-definir-perimetre`
 - `skill-rediger-instructions`
@@ -50,5 +50,5 @@ Voir aussi [INDEX-TRANSVERSALES.md](INDEX-TRANSVERSALES.md).
 
 ## Gabarits et exemples
 
-- `_templates/skill/` fournit un squelette generique historique du depot
+- `_templates/skill/` fournit un squelette générique historique du dépôt
 - `skill-exemple/` reste un exemple simple
